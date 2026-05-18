@@ -7,7 +7,7 @@ export default function Dashboard() {
       </header>
 
       {/* Global Navigation */}
-      <nav className="p-6 flex gap-6 text-md text-white/70 uppercase tracking-wider">
+      {/* <nav className="p-6 flex gap-6 text-md text-white/70 uppercase tracking-wider">
         <a
           href="/dashboard"
           className="hover:text-white transition-colors duration-200"
@@ -32,7 +32,7 @@ export default function Dashboard() {
         >
           Contact
         </a>
-      </nav>
+      </nav> */}
 
       {/* Main Content Container */}
       <main className="max-w-4xl mx-auto p-10 space-y-20">
@@ -103,15 +103,6 @@ export default function Dashboard() {
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
       hover:border-white/40"
             >
-              {/* Hover Image Layer */}
-              <div
-                className="absolute inset-0 opacity-0 group-hover:opacity-100 
-        transition-opacity duration-300 bg-cover bg-center"
-                style={{
-                  backgroundImage: "url('/pacific-trails-preview.jpg')",
-                }}
-              ></div>
-
               {/* Content */}
               <div className="relative z-10">
                 <h3 className="text-lg font-medium mb-2">
@@ -136,15 +127,6 @@ export default function Dashboard() {
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
       hover:border-white/40"
             >
-              {/* Hover Image Layer */}
-              <div
-                className="absolute inset-0 opacity-0 group-hover:opacity-100 
-        transition-opacity duration-300 bg-cover bg-center"
-                style={{
-                  backgroundImage: "url('/charlotte-food-tour-preview.jpg')",
-                }}
-              ></div>
-
               {/* Content */}
               <div className="relative z-10">
                 <h3 className="text-lg font-medium mb-2">

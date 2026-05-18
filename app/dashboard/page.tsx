@@ -7,7 +7,7 @@ export default function Dashboard() {
       </header>
 
       {/* Global Navigation */}
-      {/* <nav className="p-6 flex gap-6 text-md text-white/70 uppercase tracking-wider">
+      <nav className="p-6 flex gap-6 text-md text-white/70 uppercase tracking-wider">
         <a
           href="/dashboard"
           className="hover:text-white transition-colors duration-200"
@@ -21,18 +21,12 @@ export default function Dashboard() {
           Projects
         </a>
         <a
-          href="/skills"
-          className="hover:text-white transition-colors duration-200"
-        >
-          Skills
-        </a>
-        <a
           href="/contact"
           className="hover:text-white transition-colors duration-200"
         >
           Contact
         </a>
-      </nav> */}
+      </nav>
 
       {/* Main Content Container */}
       <main className="max-w-4xl mx-auto p-10 space-y-20">

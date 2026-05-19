@@ -114,10 +114,18 @@ export default function Dashboard() {
                     Pacific Trails Resort
                   </a>
                 </h3>
-                <p className="text-sm text-white/90">
+                <p className="text-sm text-white/90 mb-8">
                   A structured HTML/CSS project demonstrating layout, responsive
                   design, and semantic markup.
                 </p>
+                <a
+                  href="https://inf250-pacifictrailsresort.netlify.app/"
+                  target="_blank"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] 
+             hover:bg-[#3ba7a0] hover:text-black transition"
+                >
+                  View Project
+                </a>
               </div>
             </div>
 
@@ -148,7 +156,8 @@ export default function Dashboard() {
                 <a
                   href="https://github.com/jboe26/charlotte-food-tour/blob/main/CharlotteAdventureGame.py"
                   target="_blank"
-                  className="text-sm text-white/90 hover:underline hover:text-white transition-colors duration-200"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] 
+             hover:bg-[#3ba7a0] hover:text-black transition"
                 >
                   View Source Code
                 </a>
@@ -163,15 +172,69 @@ export default function Dashboard() {
 
         {/* Skills */}
         <section>
-          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">Skills</h2>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-white/80 mb-4">
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Next.js</li>
-            <li>Node.js</li>
-            <li>Tailwind CSS</li>
-            <li>TypeScript</li>
-          </ul>
+          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-4">Skills</h2>
+
+          <div className="grid gap-4">
+            {/* Core Web */}
+            <div className="bg-white/5 border border-white/10 rounded-lg p-4">
+              <h3 className="text-white/70 text-sm mb-3">Core Web</h3>
+              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-white/80 text-sm">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>PHP</li>
+                <li>Python</li>
+              </ul>
+            </div>
+
+            {/* Front-End */}
+            <div className="bg-white/5 border border-white/10 rounded-lg p-4">
+              <h3 className="text-white/70 text-sm mb-3">Front-End</h3>
+              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-white/80 text-sm">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Tailwind CSS</li>
+                <li>Bootstrap</li>
+                <li>Responsive Design</li>
+                <li>UI/UX Principles</li>
+              </ul>
+            </div>
+
+            {/* Back-End */}
+            <div className="bg-white/5 border border-white/10 rounded-lg p-4">
+              <h3 className="text-white/70 text-sm mb-3">Back-End</h3>
+              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-white/80 text-sm">
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>REST APIs</li>
+                <li>Firebase</li>
+              </ul>
+            </div>
+
+            {/* Databases */}
+            <div className="bg-white/5 border border-white/10 rounded-lg p-4">
+              <h3 className="text-white/70 text-sm mb-3">Databases</h3>
+              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-white/80 text-sm">
+                <li>SQL</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+
+            {/* Tools */}
+            <div className="bg-white/5 border border-white/10 rounded-lg p-4">
+              <h3 className="text-white/70 text-sm mb-3">Tools & Workflow</h3>
+              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-white/80 text-sm">
+                <li>Git & GitHub</li>
+                <li>Visual Studio Code</li>
+                <li>Chrome DevTools</li>
+                <li>Netlify</li>
+                <li>Render</li>
+                <li>NPM / Yarn (package managers)</li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         {/* Footer */}

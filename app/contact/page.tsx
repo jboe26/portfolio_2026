@@ -7,7 +7,7 @@ export default function ContactPage() {
       </header>
 
       {/* Global Navigation */}
-      <nav className="p-6 flex gap-6 text-md text-white/70 uppercase tracking-wider">
+      <nav className="p-6 flex flex-wrap gap-6 text-md text-white/70 uppercase tracking-wider">
         <a
           href="/dashboard"
           className="hover:text-white transition-colors duration-200"
@@ -35,7 +35,7 @@ export default function ContactPage() {
       </nav>
 
       {/* Page Container */}
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl px-6 mx-auto">
         {/* Page Header */}
         <h2 className="text-xl font-bold mb-4 text-[#3ba7a0]">Contact</h2>
         <p className="text-lg text-white/80 mb-8">

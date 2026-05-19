@@ -43,46 +43,54 @@ export default function Dashboard() {
           </h2>
 
           <div className="space-y-4 mb-4">
-            {/* Client Card 1 */}
+            {/* Speech Innovation */}
             <div
               className="bg-[#3e424b] p-6 rounded-lg border border-white/20
-              transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-              hover:border-white/40"
+      transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
+      hover:border-white/40"
             >
-              <h3 className="text-lg font-medium mb-2">
-                <a
-                  href="https://speechinnovationnc.org/"
-                  target="_blank"
-                  className="hover:underline hover:text-white transition-colors duration-200"
-                >
-                  Speech Innovation NC
-                </a>
-              </h3>
-              <p className="text-sm text-white/90">
+              <h3 className="text-lg font-medium mb-2">Speech Innovation NC</h3>
+              <p className="text-sm text-white/90 mb-4">
                 Bilingual Speech-Language Pathology Services — Empowering
                 Communication, Transforming Lives.
               </p>
+
+              <div className="flex gap-4 text-sm">
+                <a
+                  href="https://speechinnovationnc.org/"
+                  target="_blank"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
+          hover:bg-[#3ba7a0] hover:text-black transition"
+                >
+                  View Project
+                </a>
+              </div>
             </div>
 
-            {/* Client Card 2 */}
+            {/* Mickey Herring */}
             <div
               className="bg-[#3e424b] p-6 rounded-lg border border-white/20
-              transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-              hover:border-white/40"
+      transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
+      hover:border-white/40"
             >
               <h3 className="text-lg font-medium mb-2">
-                <a
-                  href="https://www.mickeyherringtaxidermy.org/"
-                  target="_blank"
-                  className="hover:underline hover:text-white transition-colors duration-200"
-                >
-                  Mickey Herring Taxidermy
-                </a>
+                Mickey Herring Taxidermy
               </h3>
-              <p className="text-sm text-white/90">
+              <p className="text-sm text-white/90 mb-4">
                 Preserving wildlife trophies with precision and passion —
                 specializing in deer, turkey, and fish.
               </p>
+
+              <div className="flex gap-4 text-sm">
+                <a
+                  href="https://www.mickeyherringtaxidermy.org/"
+                  target="_blank"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
+          hover:bg-[#3ba7a0] hover:text-black transition"
+                >
+                  View Project
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -178,60 +186,101 @@ export default function Dashboard() {
             {/* Core Web */}
             <div className="bg-white/5 border border-white/10 rounded-lg p-4">
               <h3 className="text-white/70 text-sm mb-3">Core Web</h3>
-              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-white/80 text-sm">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>PHP</li>
-                <li>Python</li>
+              <ul className="flex flex-wrap gap-2 text-white/80 text-lg">
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  HTML5
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  CSS3
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  JavaScript
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  TypeScript
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  Python
+                </li>
               </ul>
             </div>
 
             {/* Front-End */}
             <div className="bg-white/5 border border-white/10 rounded-lg p-4">
               <h3 className="text-white/70 text-sm mb-3">Front-End</h3>
-              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-white/80 text-sm">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Tailwind CSS</li>
-                <li>Bootstrap</li>
-                <li>Responsive Design</li>
-                <li>UI/UX Principles</li>
+              <ul className="flex flex-wrap gap-2 text-white/80 text-lg">
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  React
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  Next.js
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  Tailwind CSS
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  Bootstrap
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  Responsive Design
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  UI/UX Principles
+                </li>
               </ul>
             </div>
 
             {/* Back-End */}
             <div className="bg-white/5 border border-white/10 rounded-lg p-4">
               <h3 className="text-white/70 text-sm mb-3">Back-End</h3>
-              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-white/80 text-sm">
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>REST APIs</li>
-                <li>Firebase</li>
+              <ul className="flex flex-wrap gap-2 text-white/80 text-lg">
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  Node.js
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  Express
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  REST APIs
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  Firebase
+                </li>
               </ul>
             </div>
 
             {/* Databases */}
             <div className="bg-white/5 border border-white/10 rounded-lg p-4">
               <h3 className="text-white/70 text-sm mb-3">Databases</h3>
-              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-white/80 text-sm">
-                <li>SQL</li>
-                <li>MySQL</li>
-                <li>MongoDB</li>
+              <ul className="flex flex-wrap gap-2 text-white/80 text-lg">
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  SQL
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  MySQL
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  MongoDB
+                </li>
               </ul>
             </div>
 
             {/* Tools */}
             <div className="bg-white/5 border border-white/10 rounded-lg p-4">
               <h3 className="text-white/70 text-sm mb-3">Tools & Workflow</h3>
-              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-white/80 text-sm">
-                <li>Git & GitHub</li>
-                <li>Visual Studio Code</li>
-                <li>Chrome DevTools</li>
-                <li>Netlify</li>
-                <li>Render</li>
-                <li>NPM / Yarn (package managers)</li>
+              <ul className="flex flex-wrap gap-2 text-white/80 text-lg">
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  Git & GitHub
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  Visual Studio Code
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  Chrome DevTools
+                </li>
+                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                  Netlify
+                </li>
               </ul>
             </div>
           </div>

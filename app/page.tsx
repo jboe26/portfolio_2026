@@ -43,7 +43,7 @@ export default function Home() {
   }, [router]);
 
   return (
-    <div className="min-h-screen bg-black text-[#3ba7a0] font-mono flex items-center justify-center px-6">
+    <div className="min-h-screen bg-[#2f333a] text-[#3ba7a0] font-mono flex items-center justify-center px-6">
       <div className="w-full max-w-2xl text-left text-lg leading-relaxed">
         {lines.map((line, i) => (
           <div

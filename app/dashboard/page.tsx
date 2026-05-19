@@ -36,6 +36,35 @@ export default function Dashboard() {
 
       {/* Main Content Container */}
       <main className="max-w-4xl mx-auto p-10 space-y-20">
+        <section className="max-w-4xl mx-auto py-2 px-4">
+          <h1 className="text-xl text-[#3ba7a0] font-bold mb-10">About Me</h1>
+
+          {/* Two‑Column Layout */}
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
+            {/* Left: Image */}
+            <div className="flex-shrink-0">
+              <img
+                src="/JoshPortrait.jpg"
+                alt="Josh Boepple"
+                className="w-45 h-45 object-cover rounded-4xl shadow-lg"
+              />
+            </div>
+
+            {/* Right: Text */}
+            <div>
+              <p className="text-lg leading-relaxed text-white/80 mb-6">
+                Hello! I'm Josh, a passionate full-stack developer based in
+                Charlotte, NC. I love building clean, user‑focused web
+                experiences and thrive on solving problems with creative
+                solutions. My work blends technical skill, design, and a drive
+                to help businesses and individuals succeed. When I'm not coding,
+                you'll find me exploring new tech, collaborating with others, or
+                enjoying the outdoors.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Client Work */}
         <section>
           <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">

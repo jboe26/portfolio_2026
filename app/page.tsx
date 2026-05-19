@@ -7,16 +7,24 @@ export default function Home() {
   const router = useRouter();
   const [lines, setLines] = useState<string[]>([]);
 
+  const newDate = new Date();
+  const dateString = newDate.toLocaleString("en-US", {
+    month: "short",
+    day: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+  });
+
   const script = [
-    "> Initializing portfolio...",
-    "> Loading developer profile...",
-    "> Establishing secure connection...",
+    `> Booting up... [${dateString}]`,
     "> Boot sequence complete.",
-    "",
+    "> Initializing portfolio...",
+    "> Establishing secure connection...",
     "========================================",
-    "   Joshua Boepple — Full Stack Developer",
+    "Joshua Boepple — Full Stack Developer",
     "========================================",
-    "",
     "Press ENTER to continue",
     "[ Tap here to continue ]",
   ];

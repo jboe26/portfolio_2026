@@ -15,6 +15,15 @@ export default function Dashboard() {
           Home
         </a>
         <a
+          href="/JoshuaBoepppleResume2026.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-white transition-colors duration-200"
+        >
+          Resume
+        </a>
+
+        <a
           href="/projects"
           className="hover:text-white transition-colors duration-200"
         >

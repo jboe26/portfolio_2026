@@ -17,6 +17,10 @@ export default function Home() {
     return () => window.removeEventListener("keydown", handleKey);
   }, [router]);
 
+  const handleEnter = () => {
+    router.push("/dashboard");
+  };
+
   return (
     <div className="min-h-screen bg-[#2f333a] flex flex-col items-center justify-center">
       <p className="text-[#fff] text-xs tracking-[0.3em] mb-12">
@@ -30,9 +34,14 @@ export default function Home() {
       <p className="text-[#3ba7a0] text-lg mt-6">Full Stack Developer</p>
       <div className="w-8 h-px bg-[#333] my-10"></div>
       <div className="flex items-center gap-3 text-[#555] text-ss tracking-[0.15em]">
-        <span className="text-white border border-[#3ba7a0] px-3 py-1 rounded">
+        <button
+          onClick={handleEnter}
+          className="text-white border border-[#3ba7a0] px-3 py-1 rounded 
+             hover:bg-[#3ba7a0] hover:text-black active:scale-95 transition"
+        >
           ENTER
-        </span>
+        </button>
+
         <span className="text-white">to continue</span>
       </div>
     </div>

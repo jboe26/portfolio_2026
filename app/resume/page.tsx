@@ -44,14 +44,16 @@ export default function ResumePage() {
 
           <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
             <p className="text-white/90 leading-relaxed">
-              Stewardship‑driven Full Stack Developer with experience in
-              logistics, technical support, and web application development.
-              Skilled in building intuitive, responsive interfaces and solving
-              complex problems through clear, collaborative workflows. Completed
-              a Bachelor's in Web & Mobile Application Development, including a
-              capstone PWA featuring offline‑first architecture and Firebase
-              integration. Seeking tech‑forward roles that value adaptability,
-              clarity, and impact.
+              Forward‑thinking Full Stack Developer with experience in
+              logistics, technical support, and modern web application
+              development. Skilled in building intuitive, responsive interfaces
+              and solving complex problems through clear, collaborative
+              workflows. Completed a Bachelor's in Web & Mobile Application
+              Development, including a capstone internship with Speech
+              Innovation NC where I built a full React website, created new
+              branding, designed business cards, and set up their professional
+              email system. Seeking tech‑forward roles that value adaptability,
+              clarity, and meaningful impact.
             </p>
           </div>
         </section>

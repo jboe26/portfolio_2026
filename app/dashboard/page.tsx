@@ -10,25 +10,25 @@ export default function Dashboard() {
       <nav className="p-6 flex gap-6 text-md text-white/70 uppercase tracking-wider">
         <a
           href="/dashboard"
-          className="hover:text-white transition-colors duration-200"
+          className="hover:text-white transition-colors duration-200 cursor-pointer"
         >
           Home
         </a>
         <a
           href="/resume"
-          className="hover:text-white transition-colors duration-200"
+          className="hover:text-white transition-colors duration-200 cursor-pointer"
         >
           Resume
         </a>
         <a
           href="/projects"
-          className="hover:text-white transition-colors duration-200"
+          className="hover:text-white transition-colors duration-200 cursor-pointer"
         >
           Projects
         </a>
         <a
           href="/contact"
-          className="hover:text-white transition-colors duration-200"
+          className="hover:text-white transition-colors duration-200 cursor-pointer"
         >
           Contact
         </a>

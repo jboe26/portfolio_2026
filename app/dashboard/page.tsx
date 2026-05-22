@@ -83,6 +83,12 @@ export default function Dashboard() {
                 Bilingual Speech-Language Pathology Services — Empowering
                 Communication, Transforming Lives.
               </p>
+              <p className="text-sm text-white/90 mb-4">
+                Designed and built a full React website for a bilingual speech
+                therapy practice. Delivered a complete brand package including
+                logo, business cards, Google Workspace setup, and custom mission
+                and vision copy.
+              </p>
 
               <div className="flex gap-4 text-sm">
                 <a
@@ -108,6 +114,12 @@ export default function Dashboard() {
               <p className="text-sm text-white/90 mb-4">
                 Preserving wildlife trophies with precision and passion —
                 specializing in deer, turkey, and fish.
+              </p>
+              <p className="text-sm text-white/90 mb-4">
+                Built a full React website for my grandfather's taxidermy
+                business, including pricing, photo gallery, and contact form.
+                Designed a new logo and business cards from scratch. He's now
+                the #1 ranked taxidermist in his area.
               </p>
 
               <div className="flex gap-4 text-sm">

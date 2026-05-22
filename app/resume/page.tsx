@@ -74,19 +74,15 @@ export default function ResumePage() {
 
               <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
                 <li>
-                  Designed and deployed a fully functional
-                  emergency‑preparedness PWA
+                  Built with HTML, CSS, JavaScript, Firebase, and service
+                  workers
                 </li>
                 <li>
-                  Implemented service workers, manifest, and IndexedDB for
-                  offline‑first use
+                  Offline-first PWA with service worker caching and manifest for
+                  home screen install
                 </li>
-                <li>
-                  Integrated Firebase for cloud sync and per‑user data storage
-                </li>
-                <li>
-                  Built responsive UI and installable experience across devices
-                </li>
+                <li>Firebase cloud sync for real-time per-user data storage</li>
+                <li>Checklist tracking split by vehicle and caregiver role</li>
               </ul>
             </div>
 
@@ -98,21 +94,22 @@ export default function ResumePage() {
               <p className="text-white/60 text-sm mb-3">INF 490 — Fall 2025</p>
 
               <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
+                <li>Built with React, deployed via Netlify</li>
                 <li>
-                  Collaborated with a real client to support speech therapy
-                  innovation
+                  Designed wireframes, user flows, and front-end components for
+                  accessibility
                 </li>
                 <li>
-                  Conducted stakeholder interviews and translated needs into
-                  development goals
+                  Conducted stakeholder interviews and translated client needs
+                  into development goals
                 </li>
                 <li>
-                  Designed wireframes and user flows for accessibility and
-                  clarity
+                  Collaborated directly with a real client to support speech
+                  therapy innovation
                 </li>
                 <li>
-                  Implemented front‑end components using React and deployed via
-                  Netlify
+                  Delivered full brand package including logo, business cards,
+                  and Google Workspace setup
                 </li>
               </ul>
             </div>
@@ -122,64 +119,70 @@ export default function ResumePage() {
         {/* Experience */}
         <section>
           <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
-            Experience
+            Freelance & Client Work
           </h2>
 
           <div className="space-y-6">
-            {/* Amazon */}
-            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
-              <h3 className="text-lg font-medium">
-                Warehouse Associate — Amazon
-              </h3>
-              <p className="text-white/60 text-sm">
-                Charlotte, NC • May 2024 – Current
-              </p>
+            {/* Client Work */}
+            <section>
+              <div className="space-y-4 mb-4">
+                {/* Speech Innovation */}
+                <div
+                  className="bg-[#3e424b] p-6 rounded-lg border border-white/20
+      transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
+      hover:border-white/40"
+                >
+                  <h3 className="text-lg font-medium mb-2">
+                    Speech Innovation NC
+                  </h3>
+                  <p className="text-sm text-white/90 mb-4">
+                    Designed and built a full React website for a bilingual
+                    speech therapy practice. Delivered a complete brand package
+                    including logo, business cards, Google Workspace setup, and
+                    custom mission and vision copy.
+                  </p>
 
-              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mt-3">
-                <li>
-                  Maintained productivity targets in order fulfillment and
-                  inventory workflows
-                </li>
-                <li>
-                  Executed receiving, scanning, picking, packing, and shipping
-                  operations
-                </li>
-                <li>
-                  Ensured compliance with safety standards and contributed to a
-                  zero‑injury record
-                </li>
-                <li>
-                  Supported lean initiatives to reduce waste and improve
-                  efficiency
-                </li>
-              </ul>
-            </div>
+                  <div className="flex gap-4 text-sm">
+                    <a
+                      href="https://speechinnovationnc.org/"
+                      target="_blank"
+                      className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
+          hover:bg-[#3ba7a0] hover:text-black transition"
+                    >
+                      View Project
+                    </a>
+                  </div>
+                </div>
 
-            {/* Roof Above */}
-            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
-              <h3 className="text-lg font-medium">
-                Tenant Support Specialist — Roof Above
-              </h3>
-              <p className="text-white/60 text-sm">
-                Charlotte, NC • June 2023 – Aug 2024
-              </p>
+                {/* Mickey Herring */}
+                <div
+                  className="bg-[#3e424b] p-6 rounded-lg border border-white/20
+      transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
+      hover:border-white/40"
+                >
+                  <h3 className="text-lg font-medium mb-2">
+                    Mickey Herring Taxidermy
+                  </h3>
+                  <p className="text-sm text-white/90 mb-4">
+                    Built a full React website for my grandfather's taxidermy
+                    business, including pricing, photo gallery, and contact
+                    form. Designed a new logo and business cards from scratch.
+                    He's now the #1 ranked taxidermist in his area.
+                  </p>
 
-              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mt-3">
-                <li>
-                  Provided support to residents transitioning out of
-                  homelessness
-                </li>
-                <li>
-                  Coordinated services with providers, property teams, and
-                  community partners
-                </li>
-                <li>Maintained accurate documentation and progress notes</li>
-                <li>
-                  Contributed to a trauma‑informed service model emphasizing
-                  trust and safety
-                </li>
-              </ul>
-            </div>
+                  <div className="flex gap-4 text-sm">
+                    <a
+                      href="https://www.mickeyherringtaxidermy.org/"
+                      target="_blank"
+                      className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
+          hover:bg-[#3ba7a0] hover:text-black transition"
+                    >
+                      View Project
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
         </section>
 

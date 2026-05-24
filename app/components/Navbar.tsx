@@ -1,6 +1,11 @@
 "use client";
 
+import { usePathname } from "next/navigation";
+
 export default function Navbar() {
+  const pathname = usePathname();
+  if (pathname === "/") return null;
+
   return (
     <div>
       <header className="bg-[#2f333a] p-6 text-lg text-white/70">

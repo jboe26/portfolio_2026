@@ -11,7 +11,7 @@ export default function Dashboard() {
             {/* Left: Image */}
             <div className="flex-shrink-0">
               <img
-                src="/JoshPortrait.jpg"
+                src="/JB.jpg"
                 alt="Josh Boepple"
                 className="w-45 h-45 object-cover rounded-4xl shadow-lg"
               />

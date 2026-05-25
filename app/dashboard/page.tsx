@@ -83,10 +83,12 @@ export default function Dashboard() {
                 specializing in deer, turkey, and fish.
               </p>
               <p className="text-sm text-white/90 mb-4">
-                Built a full React website for my grandfather's taxidermy
-                business, including pricing, photo gallery, and contact form.
-                Designed a new logo and business cards from scratch. He's now
-                the #1 ranked taxidermist in his area.
+                Built and rebuilt a full website for my grandfather's taxidermy
+                business using React, then migrated to Next.js with Tailwind
+                CSS. Includes pricing, photo gallery, mailto contact form, and
+                custom domain deployment via Netlify. Designed a new logo and
+                business cards from scratch. He's now the #1 ranked taxidermist
+                in his area.
               </p>
 
               <div className="flex gap-4 text-sm">

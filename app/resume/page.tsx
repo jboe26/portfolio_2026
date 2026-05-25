@@ -102,12 +102,21 @@ export default function ResumePage() {
                   <h3 className="text-lg font-medium mb-2">
                     Speech Innovation NC
                   </h3>
-                  <p className="text-sm text-white/90 mb-4">
-                    Designed and built a full React website for a bilingual
-                    speech therapy practice. Delivered a complete brand package
-                    including logo, business cards, Google Workspace setup, and
-                    custom mission and vision copy.
-                  </p>
+                  <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mb-4">
+                    <li>Built with React, deployed via Netlify</li>
+                    <li>
+                      Designed wireframes, user flows, and front-end components
+                      for accessibility
+                    </li>
+                    <li>
+                      Delivered full brand package including logo, business
+                      cards, and Google Workspace setup
+                    </li>
+                    <li>
+                      Crafted mission and vision copy the founders said "speaks
+                      directly to us"
+                    </li>
+                  </ul>
 
                   <div className="flex gap-4 text-sm">
                     <a
@@ -130,12 +139,17 @@ export default function ResumePage() {
                   <h3 className="text-lg font-medium mb-2">
                     Mickey Herring Taxidermy
                   </h3>
-                  <p className="text-sm text-white/90 mb-4">
-                    Built a full React website for my grandfather's taxidermy
-                    business, including pricing, photo gallery, and contact
-                    form. Designed a new logo and business cards from scratch.
-                    He's now the #1 ranked taxidermist in his area.
-                  </p>
+                  <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mb-4">
+                    <li>
+                      Built with React, migrated to Next.js and Tailwind CSS
+                    </li>
+                    <li>
+                      Includes pricing, photo gallery, mailto contact form,
+                      deployed via Netlify
+                    </li>
+                    <li>Designed logo and business cards from scratch</li>
+                    <li>He's now the #1 ranked taxidermist in his area</li>
+                  </ul>
 
                   <div className="flex gap-4 text-sm">
                     <a

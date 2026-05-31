@@ -1,23 +1,20 @@
 export default function Dashboard() {
   return (
     <div className="min-h-screen bg-[#2f333a] text-white">
-      {/* Main Content Container */}
       <main className="max-w-4xl mx-auto p-10 space-y-20">
+        {/* ABOUT ME */}
         <section className="max-w-4xl mx-auto py-2 px-4">
           <h1 className="text-xl text-[#3ba7a0] font-bold mb-10">About Me</h1>
 
-          {/* Two‑Column Layout */}
           <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
-            {/* Left: Image */}
             <div className="flex-shrink-0">
               <img
                 src="/JB.jpg"
                 alt="Josh Boepple"
-                className="w-45 h-45 object-cover rounded-4xl shadow-lg"
+                className="w-45 h-45 object-cover rounded-3xl shadow-lg"
               />
             </div>
 
-            {/* Right: Text */}
             <div>
               <p className="text-lg leading-relaxed text-white/80 mb-6">
                 Hello! I'm Josh, a passionate full-stack developer based in
@@ -32,7 +29,7 @@ export default function Dashboard() {
           </div>
         </section>
 
-        {/* Client Work */}
+        {/* CLIENT WORK */}
         <section>
           <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
             Client Work
@@ -40,11 +37,7 @@ export default function Dashboard() {
 
           <div className="space-y-4 mb-4">
             {/* Speech Innovation */}
-            <div
-              className="bg-[#3e424b] p-6 rounded-lg border border-white/20
-      transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40"
-            >
+            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
               <h3 className="text-lg font-medium mb-2">Speech Innovation NC</h3>
               <p className="text-sm text-white/90 mb-4">
                 Bilingual Speech-Language Pathology Services — Empowering
@@ -61,8 +54,7 @@ export default function Dashboard() {
                 <a
                   href="https://speechinnovationnc.org/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
                 >
                   View Project
                 </a>
@@ -70,11 +62,7 @@ export default function Dashboard() {
             </div>
 
             {/* Mickey Herring */}
-            <div
-              className="bg-[#3e424b] p-6 rounded-lg border border-white/20
-      transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40"
-            >
+            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
               <h3 className="text-lg font-medium mb-2">
                 Mickey Herring Taxidermy
               </h3>
@@ -95,8 +83,7 @@ export default function Dashboard() {
                 <a
                   href="https://www.mickeyherringtaxidermy.org/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
                 >
                   View Project
                 </a>
@@ -105,7 +92,7 @@ export default function Dashboard() {
           </div>
         </section>
 
-        {/* Featured Projects */}
+        {/* FEATURED PROJECTS */}
         <section>
           <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
             Featured Projects
@@ -115,45 +102,38 @@ export default function Dashboard() {
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-4">
-            {/* Card 1 */}
-            <div
-              className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
-      transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40"
-            >
-              {/* Content */}
+            {/* ZeroOut */}
+            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
               <div className="relative z-10">
                 <h3 className="text-lg font-medium mb-2">
                   <a
-                    href="https://inf250-pacifictrailsresort.netlify.app/"
+                    href="https://zeroout.netlify.app/"
                     target="_blank"
                     className="hover:underline hover:text-white transition-colors duration-200"
                   >
-                    Pacific Trails Resort
+                    ZeroOut — Full Stack Budget & Debt Tracker
                   </a>
                 </h3>
                 <p className="text-sm text-white/90 mb-8">
-                  A structured HTML/CSS project demonstrating layout, responsive
-                  design, and semantic markup.
+                  A full stack personal finance app built with Next.js, MongoDB,
+                  and NextAuth. Features user authentication, income and expense
+                  tracking, debt management, and a live financial dashboard.
+                  Built with a REST API, protected routes, and full CRUD
+                  operations.
                 </p>
+
                 <a
-                  href="https://inf250-pacifictrailsresort.netlify.app/"
+                  href="https://zeroout.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] 
-             hover:bg-[#3ba7a0] hover:text-black transition"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
                 >
                   View Project
                 </a>
               </div>
             </div>
 
-            {/* Card 2 */}
-            <div
-              className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
-      transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40"
-            >
-              {/* Content */}
+            {/* Charlotte Food Tour */}
+            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
               <div className="relative z-10">
                 <h3 className="text-lg font-medium mb-2">
                   <a
@@ -166,7 +146,7 @@ export default function Dashboard() {
                 </h3>
 
                 <p className="text-sm text-white/90 mb-4">
-                  An interactive Python text adventure exploring Charlotte’s
+                  An interactive Python text adventure exploring Charlotte's
                   neighborhoods and restaurants through branching choices and
                   dynamic storytelling.
                 </p>
@@ -174,8 +154,7 @@ export default function Dashboard() {
                 <a
                   href="https://github.com/jboe26/charlotte-food-tour/blob/main/CharlotteAdventureGame.py"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] 
-             hover:bg-[#3ba7a0] hover:text-black transition"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
                 >
                   View Source Code
                 </a>
@@ -185,10 +164,70 @@ export default function Dashboard() {
                 </p>
               </div>
             </div>
+
+            {/* Coping Skills Toolbox — Mental Health App */}
+            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
+              <div className="relative z-10">
+                <h3 className="text-lg font-medium mb-2">
+                  <a
+                    href="#"
+                    className="hover:underline hover:text-white transition-colors duration-200"
+                  >
+                    Coping Skills Toolbox — Mental Health App
+                  </a>
+                </h3>
+
+                <p className="text-sm text-white/90 mb-8">
+                  A React Native mobile app for mental wellness. Features a
+                  coping skills library, four guided exercises (grounding,
+                  breathing, body scan, mindfulness), daily mood check-ins, and
+                  history tracking with mood charts. Built with Expo,
+                  AsyncStorage, and Expo Router.
+                </p>
+
+                <a
+                  href="https://github.com/jboe26/CopingSkillsToolbox"
+                  target="_blank"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
+                >
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+
+            {/* Digital Declutter Kit */}
+            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
+              <div className="relative z-10">
+                <h3 className="text-lg font-medium mb-2">
+                  <a
+                    href="#"
+                    className="hover:underline hover:text-white transition-colors duration-200"
+                  >
+                    Digital Declutter Kit
+                  </a>
+                </h3>
+
+                <p className="text-sm text-white/90 mb-8">
+                  A self-guided PDF workbook to reclaim your digital life. Seven
+                  structured sections: audit your habits, declutter your
+                  devices, build clean routines, and track progress. Includes
+                  checklists, a 25-question habit audit, and curated tools to
+                  maintain focus.
+                </p>
+
+                <a
+                  href="https://www.etsy.com/listing/4504382402/digital-declutter-kit-clean-up-your"
+                  target="_blank"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
+                >
+                  Buy on Etsy
+                </a>
+              </div>
+            </div>
           </div>
         </section>
 
-        {/* Skills */}
+        {/* SKILLS */}
         <section>
           <h2 className="text-xl text-[#3ba7a0] font-semibold mb-4">Skills</h2>
 
@@ -296,7 +335,7 @@ export default function Dashboard() {
           </div>
         </section>
 
-        {/* Footer */}
+        {/* FOOTER */}
         <footer className="border-t border-white/20 py-6">
           <p className="text-sm text-white/60 text-center">
             {new Date().getFullYear()} Joshua Boepple — Full Stack Developer

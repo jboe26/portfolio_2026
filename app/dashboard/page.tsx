@@ -170,7 +170,8 @@ export default function Dashboard() {
               <div className="relative z-10">
                 <h3 className="text-lg font-medium mb-2">
                   <a
-                    href="#"
+                    href="https://github.com/jboe26/CopingSkillsToolbox"
+                    target="_blank"
                     className="hover:underline hover:text-white transition-colors duration-200"
                   >
                     Coping Skills Toolbox — Mental Health App
@@ -200,7 +201,8 @@ export default function Dashboard() {
               <div className="relative z-10">
                 <h3 className="text-lg font-medium mb-2">
                   <a
-                    href="#"
+                    href="https://www.etsy.com/listing/4504382402/digital-declutter-kit-clean-up-your"
+                    target="_blank"
                     className="hover:underline hover:text-white transition-colors duration-200"
                   >
                     Digital Declutter Kit

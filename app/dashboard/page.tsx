@@ -196,33 +196,29 @@ export default function Dashboard() {
               </div>
             </div>
 
-            {/* Digital Declutter Kit */}
+            {/* AnchorTech Client Portal */}
             <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
               <div className="relative z-10">
                 <h3 className="text-lg font-medium mb-2">
                   <a
-                    href="https://www.etsy.com/listing/4504382402/digital-declutter-kit-clean-up-your"
+                    href="https://portal.anchortech.org/client/login"
                     target="_blank"
                     className="hover:underline hover:text-white transition-colors duration-200"
                   >
-                    Digital Declutter Kit
+                    AnchorTech Client Portal
                   </a>
                 </h3>
 
                 <p className="text-sm text-white/90 mb-8">
-                  A self-guided PDF workbook to reclaim your digital life. Seven
-                  structured sections: audit your habits, declutter your
-                  devices, build clean routines, and track progress. Includes
-                  checklists, a 25-question habit audit, and curated tools to
-                  maintain focus.
+                  AnchorTech Portal is a full-stack business management platform designed for freelancers and agencies to streamline client, project, and invoice management. Built with Next.js and TypeScript, it features dual-role authentication for admin and clients, an admin dashboard for managing clients and projects, a client portal for viewing active work and invoices, real-time revenue tracking, invoice status management, and a clean Tailwind CSS interface. The backend uses Supabase PostgreSQL with Prisma ORM, and the platform is deployed on Netlify as a complete operational hub for freelance workflows.
                 </p>
 
                 <a
-                  href="https://www.etsy.com/listing/4504382402/digital-declutter-kit-clean-up-your"
+                  href="https://portal.anchortech.org/client/login"
                   target="_blank"
                   className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
                 >
-                  Buy on Etsy
+                  View Project
                 </a>
               </div>
             </div>

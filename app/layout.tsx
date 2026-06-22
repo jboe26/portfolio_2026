@@ -8,6 +8,19 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+  other: {
+    "application/ld+json": JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Joshua Boepple",
+      url: "https://joshboeppleportfolio.com",
+      jobTitle: "Full Stack Developer",
+      sameAs: [
+        "https://github.com/jboe26",
+        "https://linkedin.com/in/joshboepple",
+      ],
+    }),
+  },
 };
 
 export default function RootLayout({

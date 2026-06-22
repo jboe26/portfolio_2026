@@ -12,10 +12,11 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Joshua Boepple",
-      url: "https://joshboeppleportfolio.com",
-      jobTitle: "Full Stack Developer",
+      name: "Joshua Boepple", // Add quotes
+      url: "https://joshboeppleportfolio.com", // Add quotes
+      jobTitle: "Full Stack Developer", // Add quotes
       sameAs: [
+        // Add quotes
         "https://github.com/jboe26",
         "https://linkedin.com/in/joshboepple",
       ],

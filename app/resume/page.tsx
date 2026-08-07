@@ -1,8 +1,28 @@
+import type { Metadata } from "next";
+import Footer from "../components/Footer";
+
+export const metadata: Metadata = {
+  title: "Resume — Joshua Boepple",
+  description:
+    "Resume for Joshua Boepple: full stack developer skills, experience, projects, and education.",
+};
+
 export default function ResumePage() {
   return (
     <div className="min-h-screen bg-[#2f333a] text-white">
       {/* Main Content */}
       <main className="max-w-4xl mx-auto p-10 space-y-20">
+        <div className="flex justify-end">
+          <a
+            href="/JoshuaBoeppleResume2026.pdf"
+            target="_blank"
+            className="text-sm px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
+      hover:bg-[#3ba7a0] hover:text-black transition"
+          >
+            Download PDF
+          </a>
+        </div>
+
         {/* Objective */}
         <section>
           <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
@@ -11,17 +31,113 @@ export default function ResumePage() {
 
           <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
             <p className="text-white/90 leading-relaxed">
-              Forward‑thinking Full Stack Developer with experience in
-              logistics, technical support, and modern web application
-              development. Skilled in building intuitive, responsive interfaces
-              and solving complex problems through clear, collaborative
-              workflows. Completed a Bachelor's in Web & Mobile Application
-              Development, including a capstone internship with Speech
-              Innovation NC where I built a full React website, created new
-              branding, designed business cards, and set up their professional
-              email system. Seeking tech‑forward roles that value adaptability,
-              clarity, and meaningful impact.
+              Full Stack Developer with experience in logistics, technical
+              support, and modern web application development. Strong focus on
+              building responsive interfaces, writing clear documentation, and
+              collaborating effectively across teams. Seeking tech-forward roles
+              where adaptability, clear communication, and practical
+              problem-solving drive meaningful impact.
             </p>
+          </div>
+        </section>
+
+        {/* Technical Skills */}
+        <section>
+          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
+            Technical Skills
+          </h2>
+
+          <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
+            <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
+              <li>
+                <span className="font-semibold">Languages & Web:</span> HTML5,
+                CSS3, JavaScript, PHP, Python, SQL
+              </li>
+              <li>
+                <span className="font-semibold">Frameworks & Libraries:</span>{" "}
+                React, Node.js, Express, Bootstrap
+              </li>
+              <li>
+                <span className="font-semibold">Databases:</span> MySQL, MongoDB
+              </li>
+              <li>
+                <span className="font-semibold">Tools & Platforms:</span> Git,
+                GitHub, RESTful APIs, VS Code, Chrome DevTools
+              </li>
+              <li>
+                <span className="font-semibold">Core Competencies:</span>{" "}
+                Responsive Design, Component-Based UI, API Integration, Schema
+                Planning
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Experience */}
+        <section>
+          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
+            Experience
+          </h2>
+
+          <div className="space-y-6">
+            {/* TW Creative Group */}
+            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
+              <h3 className="text-lg font-medium mb-1">
+                Freelance Web Developer (Subcontractor) | TW Creative Group
+              </h3>
+              <p className="text-white/60 text-sm mb-3">
+                Remote — June 2026 – Present
+              </p>
+
+              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
+                <li>
+                  Subcontract ~10 hours/week supporting web development projects
+                  under agency lead.
+                </li>
+                <li>
+                  Lead schema planning and structured data implementation for
+                  client site rebuilds using WordPress and Beaver Builder.
+                </li>
+                <li>
+                  Support a Drupal-to-WordPress migration for a client site
+                  through schema strategy, technical planning, and Kadence/Divi
+                  implementation.
+                </li>
+                <li>
+                  Maintain accurate time tracking and deliverable documentation
+                  across concurrent client projects.
+                </li>
+              </ul>
+            </div>
+
+            {/* Amazon */}
+            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
+              <h3 className="text-lg font-medium mb-1">
+                Warehouse Associate | Amazon
+              </h3>
+              <p className="text-white/60 text-sm mb-3">
+                Charlotte, NC — May 2024 – Present
+              </p>
+
+              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
+                <li>
+                  Achieve consistent rate targets across receiving, scanning,
+                  picking, packing, and shipping workflows.
+                </li>
+                <li>
+                  Operate proprietary internal systems and handheld scanners
+                  with high accuracy.
+                </li>
+                <li>
+                  Maintain a zero-injury record through strict adherence to
+                  safety procedures.
+                </li>
+                <li>
+                  Collaborate with supervisors to meet daily quota goals and
+                  streamline workflow efficiency.
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
 
@@ -37,133 +153,59 @@ export default function ResumePage() {
               <h3 className="text-lg font-medium mb-1">
                 Emergency Prep Progressive Web App
               </h3>
-              <p className="text-white/60 text-sm mb-3">INF 654 — Fall 2025</p>
+              <p className="text-white/60 text-sm mb-3">
+                INF 654 Mobile Web Development — Fall 2025
+              </p>
 
               <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
                 <li>
-                  Built with HTML, CSS, JavaScript, Firebase, and service
-                  workers
+                  Engineered a full PWA using service workers, web app manifest,
+                  and IndexedDB for offline-first functionality.
                 </li>
                 <li>
-                  Offline-first PWA with service worker caching and manifest for
-                  home screen install
+                  Integrated Firebase for cloud synchronization and per-user
+                  data storage.
                 </li>
-                <li>Firebase cloud sync for real-time per-user data storage</li>
-                <li>Checklist tracking split by vehicle and caregiver role</li>
+                <li>
+                  Built a responsive, installable UI across mobile and desktop
+                  environments.
+                </li>
+                <li>
+                  Authored modular architecture documentation in GitHub
+                  repository.
+                </li>
               </ul>
             </div>
 
             {/* Project 2 */}
             <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
               <h3 className="text-lg font-medium mb-1">
-                Speech Innovation NC — Capstone Internship
+                Speech Innovation NC – Capstone Internship Project
               </h3>
-              <p className="text-white/60 text-sm mb-3">INF 490 — Fall 2025</p>
+              <p className="text-white/60 text-sm mb-3">
+                INF 490 Capstone Seminar in Informatics — Fall 2025
+              </p>
 
               <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
-                <li>Built with React, deployed via Netlify</li>
                 <li>
-                  Designed wireframes, user flows, and front-end components for
-                  accessibility
+                  Partnered with a local speech pathologist in Pineville, NC to
+                  design a web solution supporting therapy service communication
+                  and client accessibility.
                 </li>
                 <li>
-                  Conducted stakeholder interviews and translated client needs
-                  into development goals
+                  Converted stakeholder interviews into actionable development
+                  requirements.
                 </li>
                 <li>
-                  Collaborated directly with a real client to support speech
-                  therapy innovation
+                  Produced wireframes and user flows focused on accessibility
+                  and intuitive navigation.
                 </li>
                 <li>
-                  Delivered full brand package including logo, business cards,
-                  and Google Workspace setup
+                  Developed React components and deployed final site via
+                  Netlify.
                 </li>
               </ul>
             </div>
-          </div>
-        </section>
-
-        {/* Experience */}
-        <section>
-          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
-            Freelance & Client Work
-          </h2>
-
-          <div className="space-y-6">
-            {/* Client Work */}
-            <section>
-              <div className="space-y-4 mb-4">
-                {/* Speech Innovation */}
-                <div
-                  className="bg-[#3e424b] p-6 rounded-lg border border-white/20
-      transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40"
-                >
-                  <h3 className="text-lg font-medium mb-2">
-                    Speech Innovation NC
-                  </h3>
-                  <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mb-4">
-                    <li>Built with React, deployed via Netlify</li>
-                    <li>
-                      Designed wireframes, user flows, and front-end components
-                      for accessibility
-                    </li>
-                    <li>
-                      Delivered full brand package including logo, business
-                      cards, and Google Workspace setup
-                    </li>
-                    <li>
-                      Crafted mission and vision copy the founders said "speaks
-                      directly to us"
-                    </li>
-                  </ul>
-
-                  <div className="flex gap-4 text-sm">
-                    <a
-                      href="https://speechinnovationnc.org/"
-                      target="_blank"
-                      className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition"
-                    >
-                      View Project
-                    </a>
-                  </div>
-                </div>
-
-                {/* Mickey Herring */}
-                <div
-                  className="bg-[#3e424b] p-6 rounded-lg border border-white/20
-      transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40"
-                >
-                  <h3 className="text-lg font-medium mb-2">
-                    Mickey Herring Taxidermy
-                  </h3>
-                  <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mb-4">
-                    <li>
-                      Built with React, migrated to Next.js and Tailwind CSS
-                    </li>
-                    <li>
-                      Includes pricing, photo gallery, mailto contact form,
-                      deployed via Netlify
-                    </li>
-                    <li>Designed logo and business cards from scratch</li>
-                    <li>He's now the #1 ranked taxidermist in his area</li>
-                  </ul>
-
-                  <div className="flex gap-4 text-sm">
-                    <a
-                      href="https://www.mickeyherringtaxidermy.org/"
-                      target="_blank"
-                      className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition"
-                    >
-                      View Project
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </section>
           </div>
         </section>
 
@@ -177,31 +219,48 @@ export default function ResumePage() {
             {/* FHSU */}
             <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
               <h3 className="text-lg font-medium">
-                B.S. Information Technology & Telecommunications
+                Bachelor of Science in Information Networking and
+                Telecommunications
               </h3>
               <p className="text-white/60 text-sm">
-                Fort Hays State University • Completed Dec 2025
+                Fort Hays State University | Hays, KS — Graduated: Dec. 2025
               </p>
-              <p className="text-white/90 text-sm mt-3">
-                Coursework in front‑end development, mobile UX/UI, databases,
-                and networking. Built responsive applications, integrated APIs,
-                and strengthened debugging and deployment skills.
-              </p>
+              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mt-3">
+                <li>
+                  Focused coursework in front-end development, mobile UX/UI,
+                  database management, and networking principles.
+                </li>
+                <li>
+                  Gained hands-on experience with HTML, CSS, JavaScript, SQL,
+                  and modern web frameworks.
+                </li>
+                <li>
+                  Developed responsive web applications, integrated APIs, and
+                  applied Git version control in collaborative environments.
+                </li>
+              </ul>
             </div>
 
             {/* South College */}
             <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
               <h3 className="text-lg font-medium">
-                A.S. Information Technology
+                Associate of Science in Information Technology
               </h3>
               <p className="text-white/60 text-sm">
-                South College • Completed Sept 2022
+                South College | Knoxville, TN — Graduated: Sept. 2022
               </p>
-              <p className="text-white/90 text-sm mt-3">
-                Focused on systems administration, networking, cybersecurity,
-                and troubleshooting. Developed foundational programming skills
-                in Python and JavaScript.
-              </p>
+              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mt-3">
+                <li>
+                  Core curriculum covered systems administration, networking
+                  fundamentals, cybersecurity, and hardware/software
+                  troubleshooting.
+                </li>
+                <li>
+                  Gained practical experience configuring operating systems,
+                  virtual environments, and foundational programming in Python
+                  and JavaScript.
+                </li>
+              </ul>
             </div>
 
             {/* UNC Charlotte */}
@@ -210,78 +269,25 @@ export default function ResumePage() {
                 Full Stack Web Development Certificate
               </h3>
               <p className="text-white/60 text-sm">
-                UNC Charlotte • Completed Jan 2020
+                University of North Carolina at Charlotte | Charlotte, NC —
+                Graduated: Jan. 2020
               </p>
-              <p className="text-white/90 text-sm mt-3">
-                Hands‑on training in JavaScript, Node.js, React, REST APIs,
-                MongoDB, and agile development practices.
-              </p>
+              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mt-3">
+                <li>
+                  Completed intensive training in front-end and back-end web
+                  development using JavaScript, Node.js, React, Express, and
+                  MongoDB.
+                </li>
+                <li>
+                  Emphasized agile development practices, RESTful API
+                  architecture, and cross-functional team projects.
+                </li>
+              </ul>
             </div>
           </div>
         </section>
 
-        {/* Certifications */}
-        <section>
-          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
-            Certificates
-          </h2>
-
-          <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
-            <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
-              <li>Mosyle Certified Admin — Business (2022)</li>
-              <li>Mosyle Certified Admin — Manager (2022)</li>
-              <li>Jamf 100 Certified Associate (2022)</li>
-            </ul>
-          </div>
-        </section>
-
-        {/* Technical Skills */}
-        <section>
-          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
-            Technical Skills
-          </h2>
-
-          <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
-            <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
-              <li>HTML5, CSS3, JavaScript, PHP, Python</li>
-              <li>React, Node.js, Express, Bootstrap</li>
-              <li>SQL, MySQL, MongoDB</li>
-              <li>REST APIs, Git & GitHub</li>
-              <li>Responsive Design, VS Code, Chrome DevTools</li>
-            </ul>
-          </div>
-        </section>
-
-        {/* Footer */}
-        <footer className="border-t border-white/20 py-6">
-          <p className="text-sm text-white/60 text-center">
-            {new Date().getFullYear()} Joshua Boepple — Full Stack Developer
-          </p>
-          <p className="text-sm text-white/60 text-center mt-2">
-            <a
-              href="mailto:joshuarboepple@gmail.com"
-              className="hover:underline hover:text-white transition-colors duration-200"
-              target="_blank"
-            >
-              joshuarboepple@gmail.com
-            </a>
-          </p>
-          <p className="text-sm text-white/60 text-center mt-2">
-            <a
-              href="https://github.com/jboe26"
-              className="hover:underline hover:text-white transition-colors duration-200"
-            >
-              GitHub
-            </a>{" "}
-            •{" "}
-            <a
-              href="https://www.linkedin.com/in/joshrboepple/"
-              className="hover:underline hover:text-white transition-colors duration-200"
-            >
-              LinkedIn
-            </a>
-          </p>
-        </footer>
+        <Footer />
       </main>
     </div>
   );

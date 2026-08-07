@@ -1,3 +1,13 @@
+import type { Metadata } from "next";
+import Image from "next/image";
+import Footer from "../components/Footer";
+
+export const metadata: Metadata = {
+  title: "About — Joshua Boepple",
+  description:
+    "Full stack developer in Charlotte, NC. Client work, featured projects, and technical skills.",
+};
+
 export default function Dashboard() {
   return (
     <div className="min-h-screen bg-[#2f333a] text-white">
@@ -8,22 +18,24 @@ export default function Dashboard() {
 
           <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
             <div className="flex-shrink-0">
-              <img
+              <Image
                 src="/JB.jpg"
                 alt="Josh Boepple"
+                width={180}
+                height={180}
                 className="w-45 h-45 object-cover rounded-3xl shadow-lg"
               />
             </div>
 
             <div>
               <p className="text-lg leading-relaxed text-white/80 mb-6">
-                Hello! I'm Josh, a passionate full-stack developer based in
-                Charlotte, NC. I love building clean, user‑focused web
+                Hello! I&rsquo;m Josh, a passionate full-stack developer based
+                in Charlotte, NC. I love building clean, user‑focused web
                 experiences and thrive on solving problems with creative
-                solutions. My work blends technical skill, design, and a drive
-                to help businesses and individuals succeed. When I'm not coding,
-                you'll find me exploring new tech, collaborating with others, or
-                enjoying the outdoors.
+                solutions. My work blends technical skill, design, and a
+                drive to help businesses and individuals succeed. When
+                I&rsquo;m not coding, you&rsquo;ll find me exploring new
+                tech, collaborating with others, or enjoying the outdoors.
               </p>
             </div>
           </div>
@@ -71,12 +83,12 @@ export default function Dashboard() {
                 specializing in deer, turkey, and fish.
               </p>
               <p className="text-sm text-white/90 mb-4">
-                Built and rebuilt a full website for my grandfather's taxidermy
-                business using React, then migrated to Next.js with Tailwind
-                CSS. Includes pricing, photo gallery, mailto contact form, and
-                custom domain deployment via Netlify. Designed a new logo and
-                business cards from scratch. He's now the #1 ranked taxidermist
-                in his area.
+                Built and rebuilt a full website for my grandfather&rsquo;s
+                taxidermy business using React, then migrated to Next.js with
+                Tailwind CSS. Includes pricing, photo gallery, mailto contact
+                form, and custom domain deployment via Netlify. Designed a
+                new logo and business cards from scratch. He&rsquo;s now the
+                #1 ranked taxidermist in his area.
               </p>
 
               <div className="flex gap-4 text-sm">
@@ -146,7 +158,8 @@ export default function Dashboard() {
                 </h3>
 
                 <p className="text-sm text-white/90 mb-4">
-                  An interactive Python text adventure exploring Charlotte's
+                  An interactive Python text adventure exploring
+                  Charlotte&rsquo;s
                   neighborhoods and restaurants through branching choices and
                   dynamic storytelling.
                 </p>
@@ -333,38 +346,7 @@ export default function Dashboard() {
           </div>
         </section>
 
-        {/* FOOTER */}
-        <footer className="border-t border-white/20 py-6">
-          <p className="text-sm text-white/60 text-center">
-            {new Date().getFullYear()} Joshua Boepple — Full Stack Developer
-          </p>
-
-          <p className="text-sm text-white/60 text-center mt-2">
-            <a
-              href="mailto:joshuarboepple@gmail.com"
-              className="hover:underline hover:text-white transition-colors duration-200"
-              target="_blank"
-            >
-              joshuarboepple@gmail.com
-            </a>
-          </p>
-
-          <p className="text-sm text-white/60 text-center mt-2">
-            <a
-              href="https://github.com/jboe26"
-              className="hover:underline hover:text-white transition-colors duration-200"
-            >
-              GitHub
-            </a>{" "}
-            •{" "}
-            <a
-              href="https://www.linkedin.com/in/joshrboepple/"
-              className="hover:underline hover:text-white transition-colors duration-200"
-            >
-              LinkedIn
-            </a>
-          </p>
-        </footer>
+        <Footer />
       </main>
     </div>
   );

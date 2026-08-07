@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export default function Navbar() {
@@ -12,30 +13,30 @@ export default function Navbar() {
         Joshua Boepple — Full Stack Developer
       </header>
       <nav className="bg-[#2f333a] p-6 flex flex-wrap gap-6 text-md text-white/70 uppercase tracking-wider">
-        <a
+        <Link
           href="/dashboard"
           className="hover:text-white transition-colors duration-200"
         >
           Home
-        </a>
-        <a
+        </Link>
+        <Link
           href="/resume"
           className="hover:text-white transition-colors duration-200"
         >
           Resume
-        </a>
-        <a
+        </Link>
+        <Link
           href="/projects"
           className="hover:text-white transition-colors duration-200"
         >
           Projects
-        </a>
-        <a
+        </Link>
+        <Link
           href="/contact"
           className="hover:text-white transition-colors duration-200"
         >
           Contact
-        </a>
+        </Link>
       </nav>
     </div>
   );

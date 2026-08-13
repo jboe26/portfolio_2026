@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div>
       <header className="bg-[#2f333a] p-6 text-lg text-white/70">
-        Joshua Boepple — Full Stack Developer
+        Joshua Boepple - Full Stack Developer
       </header>
       <nav className="bg-[#2f333a] p-6 flex flex-wrap gap-6 text-md text-white/70 uppercase tracking-wider">
         <Link

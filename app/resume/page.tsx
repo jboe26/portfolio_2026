@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Resume — Joshua Boepple",
+  title: "Resume - Joshua Boepple",
   description:
     "Resume for Joshua Boepple: full stack developer skills, experience, projects, and education.",
 };
@@ -86,7 +86,7 @@ export default function ResumePage() {
                 Freelance Web Developer (Subcontractor) | TW Creative Group
               </h3>
               <p className="text-white/60 text-sm mb-3">
-                Remote — June 2026 – Present
+                Remote - June 2026 - Present
               </p>
 
               <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
@@ -116,7 +116,7 @@ export default function ResumePage() {
                 Warehouse Associate | Amazon
               </h3>
               <p className="text-white/60 text-sm mb-3">
-                Charlotte, NC — May 2024 – Present
+                Charlotte, NC - May 2024 - Present
               </p>
 
               <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
@@ -154,7 +154,7 @@ export default function ResumePage() {
                 Emergency Prep Progressive Web App
               </h3>
               <p className="text-white/60 text-sm mb-3">
-                INF 654 Mobile Web Development — Fall 2025
+                INF 654 Mobile Web Development - Fall 2025
               </p>
 
               <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
@@ -180,10 +180,10 @@ export default function ResumePage() {
             {/* Project 2 */}
             <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
               <h3 className="text-lg font-medium mb-1">
-                Speech Innovation NC – Capstone Internship Project
+                Speech Innovation NC - Capstone Internship Project
               </h3>
               <p className="text-white/60 text-sm mb-3">
-                INF 490 Capstone Seminar in Informatics — Fall 2025
+                INF 490 Capstone Seminar in Informatics - Fall 2025
               </p>
 
               <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
@@ -223,7 +223,7 @@ export default function ResumePage() {
                 Telecommunications
               </h3>
               <p className="text-white/60 text-sm">
-                Fort Hays State University | Hays, KS — Graduated: Dec. 2025
+                Fort Hays State University | Hays, KS - Graduated: Dec. 2025
               </p>
               <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mt-3">
                 <li>
@@ -247,7 +247,7 @@ export default function ResumePage() {
                 Associate of Science in Information Technology
               </h3>
               <p className="text-white/60 text-sm">
-                South College | Knoxville, TN — Graduated: Sept. 2022
+                South College | Knoxville, TN - Graduated: Sept. 2022
               </p>
               <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mt-3">
                 <li>
@@ -269,7 +269,7 @@ export default function ResumePage() {
                 Full Stack Web Development Certificate
               </h3>
               <p className="text-white/60 text-sm">
-                University of North Carolina at Charlotte | Charlotte, NC —
+                University of North Carolina at Charlotte | Charlotte, NC -
                 Graduated: Jan. 2020
               </p>
               <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mt-3">

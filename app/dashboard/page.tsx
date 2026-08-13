@@ -3,7 +3,7 @@ import Image from "next/image";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "About — Joshua Boepple",
+  title: "About - Joshua Boepple",
   description:
     "Full stack developer in Charlotte, NC. Client work, featured projects, and technical skills.",
 };
@@ -52,7 +52,7 @@ export default function Dashboard() {
             <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
               <h3 className="text-lg font-medium mb-2">Speech Innovation NC</h3>
               <p className="text-sm text-white/90 mb-4">
-                Bilingual Speech-Language Pathology Services — Empowering
+                Bilingual Speech-Language Pathology Services - Empowering
                 Communication, Transforming Lives.
               </p>
               <p className="text-sm text-white/90 mb-4">
@@ -79,7 +79,7 @@ export default function Dashboard() {
                 Mickey Herring Taxidermy
               </h3>
               <p className="text-sm text-white/90 mb-4">
-                Preserving wildlife trophies with precision and passion —
+                Preserving wildlife trophies with precision and passion -
                 specializing in deer, turkey, and fish.
               </p>
               <p className="text-sm text-white/90 mb-4">
@@ -106,7 +106,7 @@ export default function Dashboard() {
             <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
               <h3 className="text-lg font-medium mb-2">Foundry & Fur</h3>
               <p className="text-sm text-white/90 mb-4">
-                Meaningful, pet-inspired keepsakes and gifts — celebrating the
+                Meaningful, pet-inspired keepsakes and gifts - celebrating the
                 bond between people and the animals they love.
               </p>
               <p className="text-sm text-white/90 mb-4">
@@ -156,7 +156,7 @@ export default function Dashboard() {
                     target="_blank"
                     className="hover:underline hover:text-white transition-colors duration-200"
                   >
-                    ZeroOut — Full Stack Budget & Debt Tracker
+                    ZeroOut - Full Stack Budget & Debt Tracker
                   </a>
                 </h3>
                 <p className="text-sm text-white/90 mb-8">
@@ -211,7 +211,7 @@ export default function Dashboard() {
               </div>
             </div>
 
-            {/* Coping Skills Toolbox — Mental Health App */}
+            {/* Coping Skills Toolbox - Mental Health App */}
             <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
               <div className="relative z-10">
                 <h3 className="text-lg font-medium mb-2">
@@ -220,7 +220,7 @@ export default function Dashboard() {
                     target="_blank"
                     className="hover:underline hover:text-white transition-colors duration-200"
                   >
-                    Coping Skills Toolbox — Mental Health App
+                    Coping Skills Toolbox - Mental Health App
                   </a>
                 </h3>
 

@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Joshua Boepple — Full Stack Developer",
+  title: "Joshua Boepple - Full Stack Developer",
   description: "Portfolio of Joshua Boepple",
   icons: {
     icon: "/favicon.ico",

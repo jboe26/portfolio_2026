@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Projects — Joshua Boepple",
+  title: "Projects - Joshua Boepple",
   description:
     "School projects and coursework demonstrating full-stack fundamentals.",
 };

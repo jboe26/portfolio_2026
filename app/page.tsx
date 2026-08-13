@@ -23,7 +23,7 @@ export default function Home() {
       "> Initializing portfolio...",
       "> Establishing secure connection...",
       "========================================",
-      "Joshua Boepple — Full Stack Developer",
+      "Joshua Boepple - Full Stack Developer",
       "========================================",
       "Press ENTER to continue",
       "[ Tap here to continue ]",

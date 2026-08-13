@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-white/20 py-6">
       <p className="text-sm text-white/60 text-center">
-        {new Date().getFullYear()} Joshua Boepple — Full Stack Developer
+        {new Date().getFullYear()} Joshua Boepple - Full Stack Developer
       </p>
 
       <p className="text-sm text-white/60 text-center mt-2">

@@ -180,47 +180,6 @@ export default function ResumePage() {
             {/* Project 2 */}
             <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
               <h3 className="text-lg font-medium mb-1">
-                <a
-                  href="https://www.foundryandfur.com/"
-                  target="_blank"
-                  className="hover:underline hover:text-white transition-colors duration-200"
-                >
-                  Foundry & Fur
-                </a>
-              </h3>
-              <p className="text-white/60 text-sm mb-3">
-                Freelance Client Project — 2026
-              </p>
-
-              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
-                <li>
-                  Designed and built a custom storefront site on Wix for a
-                  pet-inspired keepsake and gift brand, connecting shoppers to
-                  the maker&rsquo;s{" "}
-                  <a
-                    href="https://foundryandfur.etsy.com/"
-                    target="_blank"
-                    className="text-[#3ba7a0] hover:underline"
-                  >
-                    Etsy shop
-                  </a>
-                  .
-                </li>
-                <li>
-                  Structured product categories (pet designs, gifts,
-                  keepsakes, and memorials) with a clean, editorial layout.
-                </li>
-                <li>
-                  Built an &ldquo;Our Story&rdquo; section and contact
-                  touchpoints (email, Instagram, Facebook) to support the
-                  brand&rsquo;s personal, story-driven voice.
-                </li>
-              </ul>
-            </div>
-
-            {/* Project 3 */}
-            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
-              <h3 className="text-lg font-medium mb-1">
                 Speech Innovation NC – Capstone Internship Project
               </h3>
               <p className="text-white/60 text-sm mb-3">

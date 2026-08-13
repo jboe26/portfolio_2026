@@ -101,6 +101,39 @@ export default function Dashboard() {
                 </a>
               </div>
             </div>
+
+            {/* Foundry & Fur */}
+            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
+              <h3 className="text-lg font-medium mb-2">Foundry & Fur</h3>
+              <p className="text-sm text-white/90 mb-4">
+                Meaningful, pet-inspired keepsakes and gifts — celebrating the
+                bond between people and the animals they love.
+              </p>
+              <p className="text-sm text-white/90 mb-4">
+                Designed and built a custom storefront site on Wix for a
+                pet-inspired keepsake and gift brand, structuring product
+                categories (pet designs, gifts, keepsakes, and memorials) and
+                linking shoppers to the maker&rsquo;s{" "}
+                <a
+                  href="https://foundryandfur.etsy.com/"
+                  target="_blank"
+                  className="text-[#3ba7a0] hover:underline"
+                >
+                  Etsy shop
+                </a>
+                .
+              </p>
+
+              <div className="flex gap-4 text-sm">
+                <a
+                  href="https://www.foundryandfur.com/"
+                  target="_blank"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
           </div>
         </section>
 

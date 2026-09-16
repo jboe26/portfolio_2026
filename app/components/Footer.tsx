@@ -8,7 +8,7 @@ export default function Footer() {
       <p className="text-sm text-[#5F6D79] text-center mt-2">
         <a
           href="mailto:joshuarboepple@gmail.com"
-          className="hover:underline hover:text-[#245F94] transition-colors duration-200"
+          className="hover:underline hover:text-[#3E6B8A] transition-colors duration-200"
           target="_blank"
         >
           joshuarboepple@gmail.com
@@ -18,14 +18,14 @@ export default function Footer() {
       <p className="text-sm text-[#5F6D79] text-center mt-2">
         <a
           href="https://github.com/jboe26"
-          className="hover:underline hover:text-[#245F94] transition-colors duration-200"
+          className="hover:underline hover:text-[#3E6B8A] transition-colors duration-200"
         >
           GitHub
         </a>{" "}
         •{" "}
         <a
           href="https://www.linkedin.com/in/joshrboepple/"
-          className="hover:underline hover:text-[#245F94] transition-colors duration-200"
+          className="hover:underline hover:text-[#3E6B8A] transition-colors duration-200"
         >
           LinkedIn
         </a>

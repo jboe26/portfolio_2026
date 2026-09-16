@@ -16,8 +16,8 @@ export default function ResumePage() {
           <a
             href="/JoshBoeppleResume82026.pdf"
             target="_blank"
-            className="text-sm px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
-      hover:bg-[#C57B45] hover:text-white transition"
+            className="text-sm px-3 py-1 rounded border border-[#B3663A] text-[#8A5730]
+      hover:bg-[#B3663A] hover:text-white transition"
           >
             Download PDF
           </a>
@@ -25,7 +25,7 @@ export default function ResumePage() {
 
         {/* Objective */}
         <section>
-          <h2 className="text-xl text-[#245F94] font-semibold mb-3">
+          <h2 className="text-xl text-[#3E6B8A] font-semibold mb-3">
             Objective
           </h2>
 
@@ -43,7 +43,7 @@ export default function ResumePage() {
 
         {/* Technical Skills */}
         <section>
-          <h2 className="text-xl text-[#245F94] font-semibold mb-3">
+          <h2 className="text-xl text-[#3E6B8A] font-semibold mb-3">
             Technical Skills
           </h2>
 
@@ -75,7 +75,7 @@ export default function ResumePage() {
 
         {/* Experience */}
         <section>
-          <h2 className="text-xl text-[#245F94] font-semibold mb-3">
+          <h2 className="text-xl text-[#3E6B8A] font-semibold mb-3">
             Experience
           </h2>
 
@@ -143,7 +143,7 @@ export default function ResumePage() {
 
         {/* Projects */}
         <section>
-          <h2 className="text-xl text-[#245F94] font-semibold mb-3">
+          <h2 className="text-xl text-[#3E6B8A] font-semibold mb-3">
             Projects
           </h2>
 
@@ -211,7 +211,7 @@ export default function ResumePage() {
 
         {/* Education */}
         <section>
-          <h2 className="text-xl text-[#245F94] font-semibold mb-3">
+          <h2 className="text-xl text-[#3E6B8A] font-semibold mb-3">
             Education
           </h2>
 

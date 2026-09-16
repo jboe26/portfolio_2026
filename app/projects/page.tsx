@@ -14,7 +14,7 @@ export default function ProjectsPage() {
       <main className="max-w-4xl mx-auto p-10 space-y-20">
         {/* SCHOOL PROJECTS */}
         <section>
-          <h2 className="text-xl text-[#245F94] font-semibold mb-3">
+          <h2 className="text-xl text-[#3E6B8A] font-semibold mb-3">
             School Projects
           </h2>
           <p className="text-[#5F6D79] text-sm mb-6">
@@ -40,8 +40,8 @@ export default function ProjectsPage() {
                 <a
                   href="https://inf250-pacifictrailsresort.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
-          hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730]
+          hover:bg-[#B3663A] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -66,8 +66,8 @@ export default function ProjectsPage() {
                 <a
                   href="https://usabilitywebsite.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
-          hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730]
+          hover:bg-[#B3663A] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -92,8 +92,8 @@ export default function ProjectsPage() {
                 <a
                   href="https://github.com/jboe26/charlotte-food-tour/blob/main/CharlotteAdventureGame.py"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
-      hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730]
+      hover:bg-[#B3663A] hover:text-white transition self-start mt-auto"
                 >
                   View Source Code
                 </a>
@@ -118,8 +118,8 @@ export default function ProjectsPage() {
                 <a
                   href="https://psychicguessinggame.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
-          hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730]
+          hover:bg-[#B3663A] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -141,8 +141,8 @@ export default function ProjectsPage() {
                 <a
                   href="https://trainscheduler.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
-          hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730]
+          hover:bg-[#B3663A] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -164,8 +164,8 @@ export default function ProjectsPage() {
                 <a
                   href="https://crystalcollectorgame.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
-          hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730]
+          hover:bg-[#B3663A] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -187,8 +187,8 @@ export default function ProjectsPage() {
                 <a
                   href="https://triviagame0.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
-          hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730]
+          hover:bg-[#B3663A] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -210,8 +210,8 @@ export default function ProjectsPage() {
                 <a
                   href="https://giphygame.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
-          hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730]
+          hover:bg-[#B3663A] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>

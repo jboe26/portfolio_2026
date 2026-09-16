@@ -33,7 +33,7 @@ export default function ContactPage() {
       {/* Page Container */}
       <div className="max-w-4xl px-6 py-10 mx-auto">
         {/* Page Header */}
-        <h2 className="text-xl font-bold mb-4 text-[#245F94]">Contact</h2>
+        <h2 className="text-xl font-bold mb-4 text-[#3E6B8A]">Contact</h2>
         <p className="text-lg text-black/70 mb-8">
           Feel free to reach out for collaborations, opportunities, or
           questions.
@@ -45,7 +45,7 @@ export default function ContactPage() {
             <h2 className="text-black/60 text-sm mb-1">Email</h2>
             <a
               href="mailto:joshuarboepple@gmail.com"
-              className="text-[#945C34] underline"
+              className="text-[#8A5730] underline"
             >
               joshuarboepple@gmail.com
             </a>
@@ -66,7 +66,7 @@ export default function ContactPage() {
         </div>
 
         <div>
-          <h2 className="mb-4 mt-6 text-xl font-bold mb-4 text-[#245F94]">
+          <h2 className="mb-4 mt-6 text-xl font-bold mb-4 text-[#3E6B8A]">
             Send a Message
           </h2>
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -93,7 +93,7 @@ export default function ContactPage() {
             />
             <button
               type="submit"
-              className="border border-[#C57B45] text-[#945C34] px-8 py-2 mb-4 rounded hover:bg-[#C57B45] hover:text-white transition"
+              className="border border-[#B3663A] text-[#8A5730] px-8 py-2 mb-4 rounded hover:bg-[#B3663A] hover:text-white transition"
             >
               Send Message
             </button>

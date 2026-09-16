@@ -48,33 +48,6 @@ export default function Dashboard() {
           </h2>
 
           <div className="space-y-4 mb-4">
-            {/* AnchorTech Innovations */}
-            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
-              <h3 className="text-lg font-medium mb-2">
-                AnchorTech Innovations
-              </h3>
-              <p className="text-sm text-white/90 mb-4">
-                Affordable web development and tech support for small
-                businesses and organizations in the Charlotte area.
-              </p>
-              <p className="text-sm text-white/90 mb-4">
-                My own web development business. Designed and built the
-                marketing site with Next.js and TypeScript, with Stripe
-                checkout for paid plans and a Supabase-backed admin
-                dashboard, deployed on Netlify.
-              </p>
-
-              <div className="flex gap-4 text-sm">
-                <a
-                  href="https://anchortech.org/"
-                  target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
-                >
-                  View Project
-                </a>
-              </div>
-            </div>
-
             {/* Speech Innovation */}
             <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
               <h3 className="text-lg font-medium mb-2">Speech Innovation NC</h3>
@@ -238,33 +211,33 @@ export default function Dashboard() {
               </div>
             </div>
 
-            {/* Coping Skills Toolbox - Mental Health App */}
+            {/* AnchorTech Innovations */}
             <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40 flex flex-col h-full">
               <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   <a
-                    href="https://github.com/jboe26/CopingSkillsToolbox"
+                    href="https://anchortech.org/"
                     target="_blank"
                     className="hover:underline hover:text-white transition-colors duration-200"
                   >
-                    Coping Skills Toolbox - Mental Health App
+                    AnchorTech Innovations
                   </a>
                 </h3>
 
                 <p className="text-sm text-white/90 mb-6 flex-1">
-                  A React Native mobile app for mental wellness. Features a
-                  coping skills library, four guided exercises (grounding,
-                  breathing, body scan, mindfulness), daily mood check-ins, and
-                  history tracking with mood charts. Built with Expo,
-                  AsyncStorage, and Expo Router.
+                  My own web development business. Affordable web
+                  development and tech support for small businesses and
+                  organizations in the Charlotte area. Built with Next.js
+                  and TypeScript, with Stripe checkout for paid plans and a
+                  Supabase-backed admin dashboard, deployed on Netlify.
                 </p>
 
                 <a
-                  href="https://github.com/jboe26/CopingSkillsToolbox"
+                  href="https://anchortech.org/"
                   target="_blank"
                   className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
                 >
-                  View on GitHub
+                  View Project
                 </a>
               </div>
             </div>

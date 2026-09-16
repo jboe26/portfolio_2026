@@ -242,25 +242,25 @@ export default function Dashboard() {
               </div>
             </div>
 
-            {/* AnchorTech Client Portal */}
+            {/* BranchesApp */}
             <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40 flex flex-col h-full">
               <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   <a
-                    href="https://portal.anchortech.org/client/login"
+                    href="https://branches-app.netlify.app/groups"
                     target="_blank"
                     className="hover:underline hover:text-white transition-colors duration-200"
                   >
-                    AnchorTech Client Portal
+                    BranchesApp
                   </a>
                 </h3>
 
                 <p className="text-sm text-white/90 mb-6 flex-1">
-                  AnchorTech Portal is a full-stack business management platform designed for freelancers and agencies to streamline client, project, and invoice management. Built with Next.js and TypeScript, it features dual-role authentication for admin and clients, an admin dashboard for managing clients and projects, a client portal for viewing active work and invoices, real-time revenue tracking, invoice status management, and a clean Tailwind CSS interface. The backend uses Supabase PostgreSQL with Prisma ORM, and the platform is deployed on Netlify as a complete operational hub for freelance workflows.
+                  BranchesApp is a communal prayer request app built with Expo Router (React Native + web) and Supabase for auth, realtime data, and storage. It features group-based prayer request sharing, updates and reactions on requests, and push notifications powered by Postgres triggers and Edge Functions, all from a single codebase targeting iOS, Android, and web.
                 </p>
 
                 <a
-                  href="https://portal.anchortech.org/client/login"
+                  href="https://branches-app.netlify.app/groups"
                   target="_blank"
                   className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
                 >

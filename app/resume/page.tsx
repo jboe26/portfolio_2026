@@ -14,7 +14,7 @@ export default function ResumePage() {
       <main className="max-w-4xl mx-auto p-10 space-y-20">
         <div className="flex justify-end">
           <a
-            href="/JoshuaBoeppleResume2026.pdf"
+            href="/JoshBoeppleResume82026.pdf"
             target="_blank"
             className="text-sm px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
       hover:bg-[#3ba7a0] hover:text-black transition"

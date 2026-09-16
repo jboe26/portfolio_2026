@@ -9,15 +9,15 @@ export const metadata: Metadata = {
 
 export default function ResumePage() {
   return (
-    <div className="min-h-screen bg-[#F2F2F2] text-[#0F1113]">
+    <div className="min-h-screen bg-[#F1F3EF] text-[#14171A]">
       {/* Main Content */}
       <main className="max-w-4xl mx-auto p-10 space-y-20">
         <div className="flex justify-end">
           <a
             href="/JoshBoeppleResume82026.pdf"
             target="_blank"
-            className="text-sm px-3 py-1 rounded border border-[#B3663A] text-[#8A5730]
-      hover:bg-[#B3663A] hover:text-white transition"
+            className="text-sm px-3 py-1 rounded border border-[#B8934C] text-[#8C6E38]
+      hover:bg-[#B8934C] hover:text-white transition"
           >
             Download PDF
           </a>
@@ -25,7 +25,7 @@ export default function ResumePage() {
 
         {/* Objective */}
         <section>
-          <h2 className="text-xl text-[#3E6B8A] font-semibold mb-3">
+          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
             Objective
           </h2>
 
@@ -43,7 +43,7 @@ export default function ResumePage() {
 
         {/* Technical Skills */}
         <section>
-          <h2 className="text-xl text-[#3E6B8A] font-semibold mb-3">
+          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
             Technical Skills
           </h2>
 
@@ -75,7 +75,7 @@ export default function ResumePage() {
 
         {/* Experience */}
         <section>
-          <h2 className="text-xl text-[#3E6B8A] font-semibold mb-3">
+          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
             Experience
           </h2>
 
@@ -85,7 +85,7 @@ export default function ResumePage() {
               <h3 className="text-lg font-medium mb-1">
                 Freelance Web Developer (Subcontractor) | TW Creative Group
               </h3>
-              <p className="text-[#5F6D79] text-sm mb-3">
+              <p className="text-[#57605A] text-sm mb-3">
                 Remote - June 2026 - Present
               </p>
 
@@ -115,7 +115,7 @@ export default function ResumePage() {
               <h3 className="text-lg font-medium mb-1">
                 Warehouse Associate | Amazon
               </h3>
-              <p className="text-[#5F6D79] text-sm mb-3">
+              <p className="text-[#57605A] text-sm mb-3">
                 Charlotte, NC - May 2024 - Present
               </p>
 
@@ -143,7 +143,7 @@ export default function ResumePage() {
 
         {/* Projects */}
         <section>
-          <h2 className="text-xl text-[#3E6B8A] font-semibold mb-3">
+          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
             Projects
           </h2>
 
@@ -153,7 +153,7 @@ export default function ResumePage() {
               <h3 className="text-lg font-medium mb-1">
                 Emergency Prep Progressive Web App
               </h3>
-              <p className="text-[#5F6D79] text-sm mb-3">
+              <p className="text-[#57605A] text-sm mb-3">
                 INF 654 Mobile Web Development - Fall 2025
               </p>
 
@@ -182,7 +182,7 @@ export default function ResumePage() {
               <h3 className="text-lg font-medium mb-1">
                 Speech Innovation NC - Capstone Internship Project
               </h3>
-              <p className="text-[#5F6D79] text-sm mb-3">
+              <p className="text-[#57605A] text-sm mb-3">
                 INF 490 Capstone Seminar in Informatics - Fall 2025
               </p>
 
@@ -211,7 +211,7 @@ export default function ResumePage() {
 
         {/* Education */}
         <section>
-          <h2 className="text-xl text-[#3E6B8A] font-semibold mb-3">
+          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
             Education
           </h2>
 
@@ -222,7 +222,7 @@ export default function ResumePage() {
                 Bachelor of Science in Information Networking and
                 Telecommunications
               </h3>
-              <p className="text-[#5F6D79] text-sm">
+              <p className="text-[#57605A] text-sm">
                 Fort Hays State University | Hays, KS - Graduated: Dec. 2025
               </p>
               <ul className="list-disc list-inside text-black/80 space-y-1 text-sm mt-3">
@@ -246,7 +246,7 @@ export default function ResumePage() {
               <h3 className="text-lg font-medium">
                 Associate of Science in Information Technology
               </h3>
-              <p className="text-[#5F6D79] text-sm">
+              <p className="text-[#57605A] text-sm">
                 South College | Knoxville, TN - Graduated: Sept. 2022
               </p>
               <ul className="list-disc list-inside text-black/80 space-y-1 text-sm mt-3">
@@ -268,7 +268,7 @@ export default function ResumePage() {
               <h3 className="text-lg font-medium">
                 Full Stack Web Development Certificate
               </h3>
-              <p className="text-[#5F6D79] text-sm">
+              <p className="text-[#57605A] text-sm">
                 University of North Carolina at Charlotte | Charlotte, NC -
                 Graduated: Jan. 2020
               </p>

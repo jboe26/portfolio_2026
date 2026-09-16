@@ -29,11 +29,11 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="min-h-screen bg-[#F2F2F2] text-[#0F1113]">
+    <main className="min-h-screen bg-[#F1F3EF] text-[#14171A]">
       {/* Page Container */}
       <div className="max-w-4xl px-6 py-10 mx-auto">
         {/* Page Header */}
-        <h2 className="text-xl font-bold mb-4 text-[#3E6B8A]">Contact</h2>
+        <h2 className="text-xl font-bold mb-4 text-[#1F4A3C]">Contact</h2>
         <p className="text-lg text-black/70 mb-8">
           Feel free to reach out for collaborations, opportunities, or
           questions.
@@ -45,7 +45,7 @@ export default function ContactPage() {
             <h2 className="text-black/60 text-sm mb-1">Email</h2>
             <a
               href="mailto:joshuarboepple@gmail.com"
-              className="text-[#8A5730] underline"
+              className="text-[#8C6E38] underline"
             >
               joshuarboepple@gmail.com
             </a>
@@ -66,7 +66,7 @@ export default function ContactPage() {
         </div>
 
         <div>
-          <h2 className="mb-4 mt-6 text-xl font-bold mb-4 text-[#3E6B8A]">
+          <h2 className="mb-4 mt-6 text-xl font-bold mb-4 text-[#1F4A3C]">
             Send a Message
           </h2>
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -75,29 +75,29 @@ export default function ContactPage() {
               placeholder="Your Name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="w-full bg-black/5 border border-black/10 rounded-lg px-4 py-3 text-[#0F1113] placeholder:text-black/40 outline-none"
+              className="w-full bg-black/5 border border-black/10 rounded-lg px-4 py-3 text-[#14171A] placeholder:text-black/40 outline-none"
             />
             <input
               type="email"
               placeholder="Your Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full bg-black/5 border border-black/10 rounded-lg px-4 py-3 text-[#0F1113] placeholder:text-black/40 outline-none"
+              className="w-full bg-black/5 border border-black/10 rounded-lg px-4 py-3 text-[#14171A] placeholder:text-black/40 outline-none"
             />
             <textarea
               placeholder="Your Message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               rows={5}
-              className="w-full bg-black/5 border border-black/10 rounded-lg px-4 py-3 text-[#0F1113] placeholder:text-black/40 outline-none"
+              className="w-full bg-black/5 border border-black/10 rounded-lg px-4 py-3 text-[#14171A] placeholder:text-black/40 outline-none"
             />
             <button
               type="submit"
-              className="border border-[#B3663A] text-[#8A5730] px-8 py-2 mb-4 rounded hover:bg-[#B3663A] hover:text-white transition"
+              className="border border-[#B8934C] text-[#8C6E38] px-8 py-2 mb-4 rounded hover:bg-[#B8934C] hover:text-white transition"
             >
               Send Message
             </button>
-            {status && <p className="text-[#5F6D79] text-sm">{status}</p>}
+            {status && <p className="text-[#57605A] text-sm">{status}</p>}
           </form>
         </div>
 

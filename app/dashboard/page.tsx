@@ -10,11 +10,11 @@ export const metadata: Metadata = {
 
 export default function Dashboard() {
   return (
-    <div className="min-h-screen bg-[#F2F2F2] text-[#0F1113]">
+    <div className="min-h-screen bg-[#F1F3EF] text-[#14171A]">
       <main className="max-w-4xl mx-auto p-10 space-y-20">
         {/* ABOUT ME */}
         <section className="max-w-4xl mx-auto py-2 px-4">
-          <h1 className="text-xl text-[#3E6B8A] font-bold mb-10">About Me</h1>
+          <h1 className="text-xl text-[#1F4A3C] font-bold mb-10">About Me</h1>
 
           <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
             <div className="flex-shrink-0">
@@ -43,7 +43,7 @@ export default function Dashboard() {
 
         {/* CLIENT WORK */}
         <section>
-          <h2 className="text-xl text-[#3E6B8A] font-semibold mb-3">
+          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
             Client Work
           </h2>
 
@@ -66,7 +66,7 @@ export default function Dashboard() {
                 <a
                   href="https://speechinnovationnc.org/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730] hover:bg-[#B3663A] hover:text-white transition"
+                  className="text-lg px-3 py-1 rounded border border-[#B8934C] text-[#8C6E38] hover:bg-[#B8934C] hover:text-white transition"
                 >
                   View Project
                 </a>
@@ -95,7 +95,7 @@ export default function Dashboard() {
                 <a
                   href="https://www.mickeyherringtaxidermy.org/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730] hover:bg-[#B3663A] hover:text-white transition"
+                  className="text-lg px-3 py-1 rounded border border-[#B8934C] text-[#8C6E38] hover:bg-[#B8934C] hover:text-white transition"
                 >
                   View Project
                 </a>
@@ -117,7 +117,7 @@ export default function Dashboard() {
                 <a
                   href="https://foundryandfur.etsy.com/"
                   target="_blank"
-                  className="text-[#8A5730] hover:underline"
+                  className="text-[#8C6E38] hover:underline"
                 >
                   Etsy shop
                 </a>
@@ -128,7 +128,7 @@ export default function Dashboard() {
                 <a
                   href="https://www.foundryandfur.com/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730] hover:bg-[#B3663A] hover:text-white transition"
+                  className="text-lg px-3 py-1 rounded border border-[#B8934C] text-[#8C6E38] hover:bg-[#B8934C] hover:text-white transition"
                 >
                   View Project
                 </a>
@@ -139,10 +139,10 @@ export default function Dashboard() {
 
         {/* FEATURED PROJECTS */}
         <section>
-          <h2 className="text-xl text-[#3E6B8A] font-semibold mb-3">
+          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
             Featured Projects
           </h2>
-          <p className="text-[#5F6D79] text-sm mb-6">
+          <p className="text-[#57605A] text-sm mb-6">
             A selection of my recent work.
           </p>
 
@@ -154,7 +154,7 @@ export default function Dashboard() {
                   <a
                     href="https://zeroout.netlify.app/"
                     target="_blank"
-                    className="hover:underline hover:text-[#3E6B8A] transition-colors duration-200"
+                    className="hover:underline hover:text-[#1F4A3C] transition-colors duration-200"
                   >
                     ZeroOut - Full Stack Budget & Debt Tracker
                   </a>
@@ -170,7 +170,7 @@ export default function Dashboard() {
                 <a
                   href="https://zeroout.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730] hover:bg-[#B3663A] hover:text-white transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#B8934C] text-[#8C6E38] hover:bg-[#B8934C] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -184,7 +184,7 @@ export default function Dashboard() {
                   <a
                     href="https://github.com/jboe26/charlotte-food-tour/tree/main"
                     target="_blank"
-                    className="hover:underline hover:text-[#3E6B8A] transition-colors duration-200"
+                    className="hover:underline hover:text-[#1F4A3C] transition-colors duration-200"
                   >
                     Charlotte Food Tour Game (Python)
                   </a>
@@ -200,7 +200,7 @@ export default function Dashboard() {
                 <a
                   href="https://github.com/jboe26/charlotte-food-tour/blob/main/CharlotteAdventureGame.py"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730] hover:bg-[#B3663A] hover:text-white transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#B8934C] text-[#8C6E38] hover:bg-[#B8934C] hover:text-white transition self-start mt-auto"
                 >
                   View Source Code
                 </a>
@@ -218,7 +218,7 @@ export default function Dashboard() {
                   <a
                     href="https://anchortech.org/"
                     target="_blank"
-                    className="hover:underline hover:text-[#3E6B8A] transition-colors duration-200"
+                    className="hover:underline hover:text-[#1F4A3C] transition-colors duration-200"
                   >
                     AnchorTech Innovations
                   </a>
@@ -235,7 +235,7 @@ export default function Dashboard() {
                 <a
                   href="https://anchortech.org/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730] hover:bg-[#B3663A] hover:text-white transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#B8934C] text-[#8C6E38] hover:bg-[#B8934C] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -249,7 +249,7 @@ export default function Dashboard() {
                   <a
                     href="https://branches-app.netlify.app/groups"
                     target="_blank"
-                    className="hover:underline hover:text-[#3E6B8A] transition-colors duration-200"
+                    className="hover:underline hover:text-[#1F4A3C] transition-colors duration-200"
                   >
                     BranchesApp
                   </a>
@@ -262,7 +262,7 @@ export default function Dashboard() {
                 <a
                   href="https://branches-app.netlify.app/groups"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#B3663A] text-[#8A5730] hover:bg-[#B3663A] hover:text-white transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#B8934C] text-[#8C6E38] hover:bg-[#B8934C] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -273,26 +273,26 @@ export default function Dashboard() {
 
         {/* SKILLS */}
         <section>
-          <h2 className="text-xl text-[#3E6B8A] font-semibold mb-4">Skills</h2>
+          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-4">Skills</h2>
 
           <div className="grid gap-4">
             {/* Core Web */}
             <div className="bg-black/5 border border-black/10 rounded-lg p-4">
               <h3 className="text-black/60 text-sm mb-3">Core Web</h3>
               <ul className="flex flex-wrap gap-2 text-black/70 text-lg">
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   HTML5
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   CSS3
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   JavaScript
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   TypeScript
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   Python
                 </li>
               </ul>
@@ -302,22 +302,22 @@ export default function Dashboard() {
             <div className="bg-black/5 border border-black/10 rounded-lg p-4">
               <h3 className="text-black/60 text-sm mb-3">Front-End</h3>
               <ul className="flex flex-wrap gap-2 text-black/70 text-lg">
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   React
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   Next.js
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   Tailwind CSS
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   Bootstrap
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   Responsive Design
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   UI/UX Principles
                 </li>
               </ul>
@@ -327,16 +327,16 @@ export default function Dashboard() {
             <div className="bg-black/5 border border-black/10 rounded-lg p-4">
               <h3 className="text-black/60 text-sm mb-3">Back-End</h3>
               <ul className="flex flex-wrap gap-2 text-black/70 text-lg">
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   Node.js
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   Express
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   REST APIs
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   Firebase
                 </li>
               </ul>
@@ -346,13 +346,13 @@ export default function Dashboard() {
             <div className="bg-black/5 border border-black/10 rounded-lg p-4">
               <h3 className="text-black/60 text-sm mb-3">Databases</h3>
               <ul className="flex flex-wrap gap-2 text-black/70 text-lg">
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   SQL
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   MySQL
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   MongoDB
                 </li>
               </ul>
@@ -362,16 +362,16 @@ export default function Dashboard() {
             <div className="bg-black/5 border border-black/10 rounded-lg p-4">
               <h3 className="text-black/60 text-sm mb-3">Tools & Workflow</h3>
               <ul className="flex flex-wrap gap-2 text-black/70 text-lg">
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   Git & GitHub
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   Visual Studio Code
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   Chrome DevTools
                 </li>
-                <li className="border border-[#B3663A] px-3 py-1 rounded w-fit">
+                <li className="border border-[#B8934C] px-3 py-1 rounded w-fit">
                   Netlify
                 </li>
               </ul>

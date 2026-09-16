@@ -227,7 +227,7 @@ export default function ResumePage() {
             {/* FHSU */}
             <div className="bg-white p-6 rounded-lg border border-black/10">
               <h3 className="text-lg font-medium">
-                Bachelor of Science in Information Technology and
+                Bachelor of Science in Information Networking and
                 Telecommunications
               </h3>
               <p className="text-[#57605A] text-sm">

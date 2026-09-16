@@ -29,36 +29,36 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="min-h-screen bg-[#2f333a] text-white">
+    <main className="min-h-screen bg-[#F2F2F2] text-[#0F1113]">
       {/* Page Container */}
       <div className="max-w-4xl px-6 mx-auto">
         {/* Page Header */}
-        <h2 className="text-xl font-bold mb-4 text-[#3ba7a0]">Contact</h2>
-        <p className="text-lg text-white/80 mb-8">
+        <h2 className="text-xl font-bold mb-4 text-[#245F94]">Contact</h2>
+        <p className="text-lg text-black/70 mb-8">
           Feel free to reach out for collaborations, opportunities, or
           questions.
         </p>
 
         {/* Contact Card */}
-        <div className="bg-white/5 border border-white/10 rounded-lg p-6 space-y-4">
+        <div className="bg-black/5 border border-black/10 rounded-lg p-6 space-y-4">
           <div>
-            <h2 className="text-white/70 text-sm mb-1">Email</h2>
+            <h2 className="text-black/60 text-sm mb-1">Email</h2>
             <a
               href="mailto:joshuarboepple@gmail.com"
-              className="text-[#3ba7a0] underline"
+              className="text-[#945C34] underline"
             >
               joshuarboepple@gmail.com
             </a>
           </div>
 
           <div>
-            <h2 className="text-white/70 text-sm mb-1">Location</h2>
-            <p className="text-white/80">Pineville, NC</p>
+            <h2 className="text-black/60 text-sm mb-1">Location</h2>
+            <p className="text-black/70">Pineville, NC</p>
           </div>
 
           <div>
-            <h2 className="text-white/70 text-sm mb-1">Availability</h2>
-            <p className="text-white/80">
+            <h2 className="text-black/60 text-sm mb-1">Availability</h2>
+            <p className="text-black/70">
               Open to freelance work, collaborations, and full‑time
               opportunities.
             </p>
@@ -66,7 +66,7 @@ export default function ContactPage() {
         </div>
 
         <div>
-          <h2 className="mb-4 mt-6 text-xl font-bold mb-4 text-[#3ba7a0]">
+          <h2 className="mb-4 mt-6 text-xl font-bold mb-4 text-[#245F94]">
             Send a Message
           </h2>
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -75,29 +75,29 @@ export default function ContactPage() {
               placeholder="Your Name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder:text-white/30 outline-none"
+              className="w-full bg-black/5 border border-black/10 rounded-lg px-4 py-3 text-[#0F1113] placeholder:text-black/40 outline-none"
             />
             <input
               type="email"
               placeholder="Your Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder:text-white/30 outline-none"
+              className="w-full bg-black/5 border border-black/10 rounded-lg px-4 py-3 text-[#0F1113] placeholder:text-black/40 outline-none"
             />
             <textarea
               placeholder="Your Message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               rows={5}
-              className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder:text-white/30 outline-none"
+              className="w-full bg-black/5 border border-black/10 rounded-lg px-4 py-3 text-[#0F1113] placeholder:text-black/40 outline-none"
             />
             <button
               type="submit"
-              className="border border-[#3ba7a0] text-[#3ba7a0] px-8 py-2 mb-4 rounded hover:bg-[#3ba7a0] hover:text-black transition"
+              className="border border-[#C57B45] text-[#945C34] px-8 py-2 mb-4 rounded hover:bg-[#C57B45] hover:text-white transition"
             >
               Send Message
             </button>
-            {status && <p className="text-white/60 text-sm">{status}</p>}
+            {status && <p className="text-[#5F6D79] text-sm">{status}</p>}
           </form>
         </div>
 

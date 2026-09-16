@@ -9,15 +9,15 @@ export const metadata: Metadata = {
 
 export default function ProjectsPage() {
   return (
-    <div className="min-h-screen bg-[#2f333a] text-white">
+    <div className="min-h-screen bg-[#F2F2F2] text-[#0F1113]">
       {/* Main Content Container */}
       <main className="max-w-4xl mx-auto p-10 space-y-20">
         {/* SCHOOL PROJECTS */}
         <section>
-          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
+          <h2 className="text-xl text-[#245F94] font-semibold mb-3">
             School Projects
           </h2>
-          <p className="text-white/60 text-sm mb-6">
+          <p className="text-[#5F6D79] text-sm mb-6">
             Coursework and hands‑on projects demonstrating full‑stack
             fundamentals.
           </p>
@@ -25,23 +25,23 @@ export default function ProjectsPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-4">
             {/* Pacific Trails Resort */}
             <div
-              className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
+              className="relative group overflow-hidden bg-white p-6 rounded-lg border border-black/10
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40 flex flex-col h-full"
+      hover:border-black/20 flex flex-col h-full"
             >
               <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   Pacific Trails Resort
                 </h3>
-                <p className="text-sm text-white/90 mb-6 flex-1">
+                <p className="text-sm text-black/80 mb-6 flex-1">
                   A structured HTML/CSS project demonstrating layout, responsive
                   design, and semantic markup.
                 </p>
                 <a
                   href="https://inf250-pacifictrailsresort.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
+          hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -50,15 +50,15 @@ export default function ProjectsPage() {
 
             {/* Usability Testing Website */}
             <div
-              className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
+              className="relative group overflow-hidden bg-white p-6 rounded-lg border border-black/10
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40 flex flex-col h-full"
+      hover:border-black/20 flex flex-col h-full"
             >
               <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   Usability Testing Website
                 </h3>
-                <p className="text-sm text-white/90 mb-6 flex-1">
+                <p className="text-sm text-black/80 mb-6 flex-1">
                   A full usability analysis of HomeDepot.com including heuristic
                   evaluation, personas, test plan, findings, and
                   recommendations.
@@ -66,8 +66,8 @@ export default function ProjectsPage() {
                 <a
                   href="https://usabilitywebsite.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
+          hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -76,15 +76,15 @@ export default function ProjectsPage() {
 
             {/* Charlotte Food Tour Game */}
             <div
-              className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
+              className="relative group overflow-hidden bg-white p-6 rounded-lg border border-black/10
   transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-  hover:border-white/40 flex flex-col h-full"
+  hover:border-black/20 flex flex-col h-full"
             >
               <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   Charlotte Food Tour Game (Python)
                 </h3>
-                <p className="text-sm text-white/90 mb-6 flex-1">
+                <p className="text-sm text-black/80 mb-6 flex-1">
                   An interactive Python text adventure exploring Charlotte’s
                   neighborhoods and restaurants through branching choices and
                   dynamic storytelling.
@@ -92,12 +92,12 @@ export default function ProjectsPage() {
                 <a
                   href="https://github.com/jboe26/charlotte-food-tour/blob/main/CharlotteAdventureGame.py"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-      hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
+      hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
                 >
                   View Source Code
                 </a>
-                <p className="text-xs text-white/80 mt-2">
+                <p className="text-xs text-black/70 mt-2">
                   Run with: python3 CharlotteAdventureGame.py
                 </p>
               </div>
@@ -105,21 +105,21 @@ export default function ProjectsPage() {
 
             {/* Psychic Game */}
             <div
-              className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
+              className="relative group overflow-hidden bg-white p-6 rounded-lg border border-black/10
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40 flex flex-col h-full"
+      hover:border-black/20 flex flex-col h-full"
             >
               <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">Psychic Game</h3>
-                <p className="text-sm text-white/90 mb-6 flex-1">
+                <p className="text-sm text-black/80 mb-6 flex-1">
                   A simple JavaScript guessing game where the computer picks a
                   random letter and the user tries to guess it.
                 </p>
                 <a
                   href="https://psychicguessinggame.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
+          hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -128,21 +128,21 @@ export default function ProjectsPage() {
 
             {/* Train Scheduler */}
             <div
-              className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
+              className="relative group overflow-hidden bg-white p-6 rounded-lg border border-black/10
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40 flex flex-col h-full"
+      hover:border-black/20 flex flex-col h-full"
             >
               <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">Train Scheduler</h3>
-                <p className="text-sm text-white/90 mb-6 flex-1">
+                <p className="text-sm text-black/80 mb-6 flex-1">
                   A real-time train schedule app using LocalStorage to store and
                   update arrival times dynamically.
                 </p>
                 <a
                   href="https://trainscheduler.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
+          hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -151,21 +151,21 @@ export default function ProjectsPage() {
 
             {/* Crystal Game */}
             <div
-              className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
+              className="relative group overflow-hidden bg-white p-6 rounded-lg border border-black/10
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40 flex flex-col h-full"
+      hover:border-black/20 flex flex-col h-full"
             >
               <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">Crystal Game</h3>
-                <p className="text-sm text-white/90 mb-6 flex-1">
+                <p className="text-sm text-black/80 mb-6 flex-1">
                   A number-matching game where each crystal has a hidden value
                   and players try to hit the target score.
                 </p>
                 <a
                   href="https://crystalcollectorgame.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
+          hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -174,21 +174,21 @@ export default function ProjectsPage() {
 
             {/* Trivia Game */}
             <div
-              className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
+              className="relative group overflow-hidden bg-white p-6 rounded-lg border border-black/10
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40 flex flex-col h-full"
+      hover:border-black/20 flex flex-col h-full"
             >
               <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">Trivia Game</h3>
-                <p className="text-sm text-white/90 mb-6 flex-1">
+                <p className="text-sm text-black/80 mb-6 flex-1">
                   A timed trivia quiz built with JavaScript, tracking correct,
                   incorrect, and unanswered questions.
                 </p>
                 <a
                   href="https://triviagame0.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
+          hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -197,21 +197,21 @@ export default function ProjectsPage() {
 
             {/* Giphy Search App */}
             <div
-              className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
+              className="relative group overflow-hidden bg-white p-6 rounded-lg border border-black/10
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40 flex flex-col h-full"
+      hover:border-black/20 flex flex-col h-full"
             >
               <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">Giphy Search App</h3>
-                <p className="text-sm text-white/90 mb-6 flex-1">
+                <p className="text-sm text-black/80 mb-6 flex-1">
                   A dynamic GIF search tool using the Giphy API to fetch and
                   display animated GIFs based on user input.
                 </p>
                 <a
                   href="https://giphygame.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
+          hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>

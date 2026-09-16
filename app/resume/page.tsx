@@ -9,15 +9,15 @@ export const metadata: Metadata = {
 
 export default function ResumePage() {
   return (
-    <div className="min-h-screen bg-[#2f333a] text-white">
+    <div className="min-h-screen bg-[#F2F2F2] text-[#0F1113]">
       {/* Main Content */}
       <main className="max-w-4xl mx-auto p-10 space-y-20">
         <div className="flex justify-end">
           <a
             href="/JoshBoeppleResume82026.pdf"
             target="_blank"
-            className="text-sm px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-      hover:bg-[#3ba7a0] hover:text-black transition"
+            className="text-sm px-3 py-1 rounded border border-[#C57B45] text-[#945C34]
+      hover:bg-[#C57B45] hover:text-white transition"
           >
             Download PDF
           </a>
@@ -25,12 +25,12 @@ export default function ResumePage() {
 
         {/* Objective */}
         <section>
-          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
+          <h2 className="text-xl text-[#245F94] font-semibold mb-3">
             Objective
           </h2>
 
-          <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
-            <p className="text-white/90 leading-relaxed">
+          <div className="bg-white p-6 rounded-lg border border-black/10">
+            <p className="text-black/80 leading-relaxed">
               Full Stack Developer with experience in logistics, technical
               support, and modern web application development. Strong focus on
               building responsive interfaces, writing clear documentation, and
@@ -43,12 +43,12 @@ export default function ResumePage() {
 
         {/* Technical Skills */}
         <section>
-          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
+          <h2 className="text-xl text-[#245F94] font-semibold mb-3">
             Technical Skills
           </h2>
 
-          <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
-            <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
+          <div className="bg-white p-6 rounded-lg border border-black/10">
+            <ul className="list-disc list-inside text-black/80 space-y-1 text-sm">
               <li>
                 <span className="font-semibold">Languages & Web:</span> HTML5,
                 CSS3, JavaScript, PHP, Python, SQL
@@ -75,21 +75,21 @@ export default function ResumePage() {
 
         {/* Experience */}
         <section>
-          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
+          <h2 className="text-xl text-[#245F94] font-semibold mb-3">
             Experience
           </h2>
 
           <div className="space-y-6">
             {/* TW Creative Group */}
-            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
+            <div className="bg-white p-6 rounded-lg border border-black/10">
               <h3 className="text-lg font-medium mb-1">
                 Freelance Web Developer (Subcontractor) | TW Creative Group
               </h3>
-              <p className="text-white/60 text-sm mb-3">
+              <p className="text-[#5F6D79] text-sm mb-3">
                 Remote - June 2026 - Present
               </p>
 
-              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
+              <ul className="list-disc list-inside text-black/80 space-y-1 text-sm">
                 <li>
                   Subcontract ~10 hours/week supporting web development projects
                   under agency lead.
@@ -111,15 +111,15 @@ export default function ResumePage() {
             </div>
 
             {/* Amazon */}
-            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
+            <div className="bg-white p-6 rounded-lg border border-black/10">
               <h3 className="text-lg font-medium mb-1">
                 Warehouse Associate | Amazon
               </h3>
-              <p className="text-white/60 text-sm mb-3">
+              <p className="text-[#5F6D79] text-sm mb-3">
                 Charlotte, NC - May 2024 - Present
               </p>
 
-              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
+              <ul className="list-disc list-inside text-black/80 space-y-1 text-sm">
                 <li>
                   Achieve consistent rate targets across receiving, scanning,
                   picking, packing, and shipping workflows.
@@ -143,21 +143,21 @@ export default function ResumePage() {
 
         {/* Projects */}
         <section>
-          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
+          <h2 className="text-xl text-[#245F94] font-semibold mb-3">
             Projects
           </h2>
 
           <div className="space-y-6">
             {/* Project 1 */}
-            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
+            <div className="bg-white p-6 rounded-lg border border-black/10">
               <h3 className="text-lg font-medium mb-1">
                 Emergency Prep Progressive Web App
               </h3>
-              <p className="text-white/60 text-sm mb-3">
+              <p className="text-[#5F6D79] text-sm mb-3">
                 INF 654 Mobile Web Development - Fall 2025
               </p>
 
-              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
+              <ul className="list-disc list-inside text-black/80 space-y-1 text-sm">
                 <li>
                   Engineered a full PWA using service workers, web app manifest,
                   and IndexedDB for offline-first functionality.
@@ -178,15 +178,15 @@ export default function ResumePage() {
             </div>
 
             {/* Project 2 */}
-            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
+            <div className="bg-white p-6 rounded-lg border border-black/10">
               <h3 className="text-lg font-medium mb-1">
                 Speech Innovation NC - Capstone Internship Project
               </h3>
-              <p className="text-white/60 text-sm mb-3">
+              <p className="text-[#5F6D79] text-sm mb-3">
                 INF 490 Capstone Seminar in Informatics - Fall 2025
               </p>
 
-              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm">
+              <ul className="list-disc list-inside text-black/80 space-y-1 text-sm">
                 <li>
                   Partnered with a local speech pathologist in Pineville, NC to
                   design a web solution supporting therapy service communication
@@ -211,21 +211,21 @@ export default function ResumePage() {
 
         {/* Education */}
         <section>
-          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
+          <h2 className="text-xl text-[#245F94] font-semibold mb-3">
             Education
           </h2>
 
           <div className="space-y-6">
             {/* FHSU */}
-            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
+            <div className="bg-white p-6 rounded-lg border border-black/10">
               <h3 className="text-lg font-medium">
                 Bachelor of Science in Information Networking and
                 Telecommunications
               </h3>
-              <p className="text-white/60 text-sm">
+              <p className="text-[#5F6D79] text-sm">
                 Fort Hays State University | Hays, KS - Graduated: Dec. 2025
               </p>
-              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mt-3">
+              <ul className="list-disc list-inside text-black/80 space-y-1 text-sm mt-3">
                 <li>
                   Focused coursework in front-end development, mobile UX/UI,
                   database management, and networking principles.
@@ -242,14 +242,14 @@ export default function ResumePage() {
             </div>
 
             {/* South College */}
-            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
+            <div className="bg-white p-6 rounded-lg border border-black/10">
               <h3 className="text-lg font-medium">
                 Associate of Science in Information Technology
               </h3>
-              <p className="text-white/60 text-sm">
+              <p className="text-[#5F6D79] text-sm">
                 South College | Knoxville, TN - Graduated: Sept. 2022
               </p>
-              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mt-3">
+              <ul className="list-disc list-inside text-black/80 space-y-1 text-sm mt-3">
                 <li>
                   Core curriculum covered systems administration, networking
                   fundamentals, cybersecurity, and hardware/software
@@ -264,15 +264,15 @@ export default function ResumePage() {
             </div>
 
             {/* UNC Charlotte */}
-            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20">
+            <div className="bg-white p-6 rounded-lg border border-black/10">
               <h3 className="text-lg font-medium">
                 Full Stack Web Development Certificate
               </h3>
-              <p className="text-white/60 text-sm">
+              <p className="text-[#5F6D79] text-sm">
                 University of North Carolina at Charlotte | Charlotte, NC -
                 Graduated: Jan. 2020
               </p>
-              <ul className="list-disc list-inside text-white/90 space-y-1 text-sm mt-3">
+              <ul className="list-disc list-inside text-black/80 space-y-1 text-sm mt-3">
                 <li>
                   Completed intensive training in front-end and back-end web
                   development using JavaScript, Node.js, React, Express, and

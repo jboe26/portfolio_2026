@@ -9,10 +9,10 @@ export default function Navbar() {
 
   return (
     <div>
-      <header className="bg-[#2f333a] p-6 text-lg text-white/70">
+      <header className="bg-[#245F94] p-6 text-lg text-white/80">
         Joshua Boepple - Full Stack Developer
       </header>
-      <nav className="bg-[#2f333a] p-6 flex flex-wrap gap-6 text-md text-white/70 uppercase tracking-wider">
+      <nav className="bg-[#245F94] p-6 flex flex-wrap gap-6 text-md text-white/80 uppercase tracking-wider">
         <Link
           href="/dashboard"
           className="hover:text-white transition-colors duration-200"

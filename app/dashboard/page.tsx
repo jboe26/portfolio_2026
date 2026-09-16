@@ -10,11 +10,11 @@ export const metadata: Metadata = {
 
 export default function Dashboard() {
   return (
-    <div className="min-h-screen bg-[#2f333a] text-white">
+    <div className="min-h-screen bg-[#F2F2F2] text-[#0F1113]">
       <main className="max-w-4xl mx-auto p-10 space-y-20">
         {/* ABOUT ME */}
         <section className="max-w-4xl mx-auto py-2 px-4">
-          <h1 className="text-xl text-[#3ba7a0] font-bold mb-10">About Me</h1>
+          <h1 className="text-xl text-[#245F94] font-bold mb-10">About Me</h1>
 
           <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
             <div className="flex-shrink-0">
@@ -28,7 +28,7 @@ export default function Dashboard() {
             </div>
 
             <div>
-              <p className="text-lg leading-relaxed text-white/80 mb-6">
+              <p className="text-lg leading-relaxed text-black/70 mb-6">
                 Hello! I&rsquo;m Josh, a passionate full-stack developer based
                 in Charlotte, NC. I love building clean, user‑focused web
                 experiences and thrive on solving problems with creative
@@ -43,19 +43,19 @@ export default function Dashboard() {
 
         {/* CLIENT WORK */}
         <section>
-          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
+          <h2 className="text-xl text-[#245F94] font-semibold mb-3">
             Client Work
           </h2>
 
           <div className="space-y-4 mb-4">
             {/* Speech Innovation */}
-            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
+            <div className="bg-white p-6 rounded-lg border border-black/10 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-black/20">
               <h3 className="text-lg font-medium mb-2">Speech Innovation NC</h3>
-              <p className="text-sm text-white/90 mb-4">
+              <p className="text-sm text-black/80 mb-4">
                 Bilingual Speech-Language Pathology Services - Empowering
                 Communication, Transforming Lives.
               </p>
-              <p className="text-sm text-white/90 mb-4">
+              <p className="text-sm text-black/80 mb-4">
                 Designed and built a full React website for a bilingual speech
                 therapy practice. Delivered a complete brand package including
                 logo, business cards, Google Workspace setup, and custom mission
@@ -66,7 +66,7 @@ export default function Dashboard() {
                 <a
                   href="https://speechinnovationnc.org/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34] hover:bg-[#C57B45] hover:text-white transition"
                 >
                   View Project
                 </a>
@@ -74,15 +74,15 @@ export default function Dashboard() {
             </div>
 
             {/* Mickey Herring */}
-            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
+            <div className="bg-white p-6 rounded-lg border border-black/10 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-black/20">
               <h3 className="text-lg font-medium mb-2">
                 Mickey Herring Taxidermy
               </h3>
-              <p className="text-sm text-white/90 mb-4">
+              <p className="text-sm text-black/80 mb-4">
                 Preserving wildlife trophies with precision and passion -
                 specializing in deer, turkey, and fish.
               </p>
-              <p className="text-sm text-white/90 mb-4">
+              <p className="text-sm text-black/80 mb-4">
                 Built and rebuilt a full website for my grandfather&rsquo;s
                 taxidermy business using React, then migrated to Next.js with
                 Tailwind CSS. Includes pricing, photo gallery, mailto contact
@@ -95,7 +95,7 @@ export default function Dashboard() {
                 <a
                   href="https://www.mickeyherringtaxidermy.org/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34] hover:bg-[#C57B45] hover:text-white transition"
                 >
                   View Project
                 </a>
@@ -103,13 +103,13 @@ export default function Dashboard() {
             </div>
 
             {/* Foundry & Fur */}
-            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
+            <div className="bg-white p-6 rounded-lg border border-black/10 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-black/20">
               <h3 className="text-lg font-medium mb-2">Foundry & Fur</h3>
-              <p className="text-sm text-white/90 mb-4">
+              <p className="text-sm text-black/80 mb-4">
                 Meaningful, pet-inspired keepsakes and gifts - celebrating the
                 bond between people and the animals they love.
               </p>
-              <p className="text-sm text-white/90 mb-4">
+              <p className="text-sm text-black/80 mb-4">
                 Designed and built a custom storefront site on Wix for a
                 pet-inspired keepsake and gift brand, structuring product
                 categories (pet designs, gifts, keepsakes, and memorials) and
@@ -117,7 +117,7 @@ export default function Dashboard() {
                 <a
                   href="https://foundryandfur.etsy.com/"
                   target="_blank"
-                  className="text-[#3ba7a0] hover:underline"
+                  className="text-[#945C34] hover:underline"
                 >
                   Etsy shop
                 </a>
@@ -128,7 +128,7 @@ export default function Dashboard() {
                 <a
                   href="https://www.foundryandfur.com/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34] hover:bg-[#C57B45] hover:text-white transition"
                 >
                   View Project
                 </a>
@@ -139,27 +139,27 @@ export default function Dashboard() {
 
         {/* FEATURED PROJECTS */}
         <section>
-          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-3">
+          <h2 className="text-xl text-[#245F94] font-semibold mb-3">
             Featured Projects
           </h2>
-          <p className="text-white/60 text-sm mb-6">
+          <p className="text-[#5F6D79] text-sm mb-6">
             A selection of my recent work.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-4">
             {/* ZeroOut */}
-            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40 flex flex-col h-full">
+            <div className="relative group overflow-hidden bg-white p-6 rounded-lg border border-black/10 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-black/20 flex flex-col h-full">
               <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   <a
                     href="https://zeroout.netlify.app/"
                     target="_blank"
-                    className="hover:underline hover:text-white transition-colors duration-200"
+                    className="hover:underline hover:text-[#245F94] transition-colors duration-200"
                   >
                     ZeroOut - Full Stack Budget & Debt Tracker
                   </a>
                 </h3>
-                <p className="text-sm text-white/90 mb-6 flex-1">
+                <p className="text-sm text-black/80 mb-6 flex-1">
                   A full stack personal finance app built with Next.js, MongoDB,
                   and NextAuth. Features user authentication, income and expense
                   tracking, debt management, and a live financial dashboard.
@@ -170,7 +170,7 @@ export default function Dashboard() {
                 <a
                   href="https://zeroout.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34] hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -178,19 +178,19 @@ export default function Dashboard() {
             </div>
 
             {/* Charlotte Food Tour */}
-            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40 flex flex-col h-full">
+            <div className="relative group overflow-hidden bg-white p-6 rounded-lg border border-black/10 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-black/20 flex flex-col h-full">
               <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   <a
                     href="https://github.com/jboe26/charlotte-food-tour/tree/main"
                     target="_blank"
-                    className="hover:underline hover:text-white transition-colors duration-200"
+                    className="hover:underline hover:text-[#245F94] transition-colors duration-200"
                   >
                     Charlotte Food Tour Game (Python)
                   </a>
                 </h3>
 
-                <p className="text-sm text-white/90 mb-6 flex-1">
+                <p className="text-sm text-black/80 mb-6 flex-1">
                   An interactive Python text adventure exploring
                   Charlotte&rsquo;s
                   neighborhoods and restaurants through branching choices and
@@ -200,31 +200,31 @@ export default function Dashboard() {
                 <a
                   href="https://github.com/jboe26/charlotte-food-tour/blob/main/CharlotteAdventureGame.py"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34] hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
                 >
                   View Source Code
                 </a>
 
-                <p className="text-xs text-white/80 mt-2">
+                <p className="text-xs text-black/70 mt-2">
                   Run with: python3 CharlotteAdventureGame.py
                 </p>
               </div>
             </div>
 
             {/* AnchorTech Innovations */}
-            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40 flex flex-col h-full">
+            <div className="relative group overflow-hidden bg-white p-6 rounded-lg border border-black/10 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-black/20 flex flex-col h-full">
               <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   <a
                     href="https://anchortech.org/"
                     target="_blank"
-                    className="hover:underline hover:text-white transition-colors duration-200"
+                    className="hover:underline hover:text-[#245F94] transition-colors duration-200"
                   >
                     AnchorTech Innovations
                   </a>
                 </h3>
 
-                <p className="text-sm text-white/90 mb-6 flex-1">
+                <p className="text-sm text-black/80 mb-6 flex-1">
                   My own web development business. Affordable web
                   development and tech support for small businesses and
                   organizations in the Charlotte area. Built with Next.js
@@ -235,7 +235,7 @@ export default function Dashboard() {
                 <a
                   href="https://anchortech.org/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34] hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -243,26 +243,26 @@ export default function Dashboard() {
             </div>
 
             {/* BranchesApp */}
-            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40 flex flex-col h-full">
+            <div className="relative group overflow-hidden bg-white p-6 rounded-lg border border-black/10 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-black/20 flex flex-col h-full">
               <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   <a
                     href="https://branches-app.netlify.app/groups"
                     target="_blank"
-                    className="hover:underline hover:text-white transition-colors duration-200"
+                    className="hover:underline hover:text-[#245F94] transition-colors duration-200"
                   >
                     BranchesApp
                   </a>
                 </h3>
 
-                <p className="text-sm text-white/90 mb-6 flex-1">
+                <p className="text-sm text-black/80 mb-6 flex-1">
                   BranchesApp is a communal prayer request app built with Expo Router (React Native + web) and Supabase for auth, realtime data, and storage. It features group-based prayer request sharing, updates and reactions on requests, and push notifications powered by Postgres triggers and Edge Functions, all from a single codebase targeting iOS, Android, and web.
                 </p>
 
                 <a
                   href="https://branches-app.netlify.app/groups"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
+                  className="text-lg px-3 py-1 rounded border border-[#C57B45] text-[#945C34] hover:bg-[#C57B45] hover:text-white transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -273,105 +273,105 @@ export default function Dashboard() {
 
         {/* SKILLS */}
         <section>
-          <h2 className="text-xl text-[#3ba7a0] font-semibold mb-4">Skills</h2>
+          <h2 className="text-xl text-[#245F94] font-semibold mb-4">Skills</h2>
 
           <div className="grid gap-4">
             {/* Core Web */}
-            <div className="bg-white/5 border border-white/10 rounded-lg p-4">
-              <h3 className="text-white/70 text-sm mb-3">Core Web</h3>
-              <ul className="flex flex-wrap gap-2 text-white/80 text-lg">
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+            <div className="bg-black/5 border border-black/10 rounded-lg p-4">
+              <h3 className="text-black/60 text-sm mb-3">Core Web</h3>
+              <ul className="flex flex-wrap gap-2 text-black/70 text-lg">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   HTML5
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   CSS3
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   JavaScript
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   TypeScript
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   Python
                 </li>
               </ul>
             </div>
 
             {/* Front-End */}
-            <div className="bg-white/5 border border-white/10 rounded-lg p-4">
-              <h3 className="text-white/70 text-sm mb-3">Front-End</h3>
-              <ul className="flex flex-wrap gap-2 text-white/80 text-lg">
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+            <div className="bg-black/5 border border-black/10 rounded-lg p-4">
+              <h3 className="text-black/60 text-sm mb-3">Front-End</h3>
+              <ul className="flex flex-wrap gap-2 text-black/70 text-lg">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   React
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   Next.js
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   Tailwind CSS
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   Bootstrap
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   Responsive Design
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   UI/UX Principles
                 </li>
               </ul>
             </div>
 
             {/* Back-End */}
-            <div className="bg-white/5 border border-white/10 rounded-lg p-4">
-              <h3 className="text-white/70 text-sm mb-3">Back-End</h3>
-              <ul className="flex flex-wrap gap-2 text-white/80 text-lg">
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+            <div className="bg-black/5 border border-black/10 rounded-lg p-4">
+              <h3 className="text-black/60 text-sm mb-3">Back-End</h3>
+              <ul className="flex flex-wrap gap-2 text-black/70 text-lg">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   Node.js
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   Express
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   REST APIs
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   Firebase
                 </li>
               </ul>
             </div>
 
             {/* Databases */}
-            <div className="bg-white/5 border border-white/10 rounded-lg p-4">
-              <h3 className="text-white/70 text-sm mb-3">Databases</h3>
-              <ul className="flex flex-wrap gap-2 text-white/80 text-lg">
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+            <div className="bg-black/5 border border-black/10 rounded-lg p-4">
+              <h3 className="text-black/60 text-sm mb-3">Databases</h3>
+              <ul className="flex flex-wrap gap-2 text-black/70 text-lg">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   SQL
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   MySQL
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   MongoDB
                 </li>
               </ul>
             </div>
 
             {/* Tools */}
-            <div className="bg-white/5 border border-white/10 rounded-lg p-4">
-              <h3 className="text-white/70 text-sm mb-3">Tools & Workflow</h3>
-              <ul className="flex flex-wrap gap-2 text-white/80 text-lg">
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+            <div className="bg-black/5 border border-black/10 rounded-lg p-4">
+              <h3 className="text-black/60 text-sm mb-3">Tools & Workflow</h3>
+              <ul className="flex flex-wrap gap-2 text-black/70 text-lg">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   Git & GitHub
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   Visual Studio Code
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   Chrome DevTools
                 </li>
-                <li className="border border-[#3ba7a0] px-3 py-1 rounded w-fit">
+                <li className="border border-[#C57B45] px-3 py-1 rounded w-fit">
                   Netlify
                 </li>
               </ul>

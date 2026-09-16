@@ -50,6 +50,10 @@ export default function ResumePage() {
           <div className="bg-white p-6 rounded-lg border border-black/10">
             <ul className="list-disc list-inside text-black/80 space-y-1 text-sm">
               <li>
+                <span className="font-semibold">Certifications:</span>{" "}
+                Microsoft Azure Fundamentals (AZ-900), Expected Dec. 2026
+              </li>
+              <li>
                 <span className="font-semibold">Languages & Web:</span> HTML5,
                 CSS3, JavaScript, PHP, Python, SQL
               </li>
@@ -63,6 +67,10 @@ export default function ResumePage() {
               <li>
                 <span className="font-semibold">Tools & Platforms:</span> Git,
                 GitHub, RESTful APIs, VS Code, Chrome DevTools
+              </li>
+              <li>
+                <span className="font-semibold">CMS & Page Builders:</span>{" "}
+                WordPress, Beaver Builder, Kadence, Divi
               </li>
               <li>
                 <span className="font-semibold">Core Competencies:</span>{" "}
@@ -219,7 +227,7 @@ export default function ResumePage() {
             {/* FHSU */}
             <div className="bg-white p-6 rounded-lg border border-black/10">
               <h3 className="text-lg font-medium">
-                Bachelor of Science in Information Networking and
+                Bachelor of Science in Information Technology and
                 Telecommunications
               </h3>
               <p className="text-[#57605A] text-sm">

@@ -48,6 +48,33 @@ export default function Dashboard() {
           </h2>
 
           <div className="space-y-4 mb-4">
+            {/* AnchorTech Innovations */}
+            <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
+              <h3 className="text-lg font-medium mb-2">
+                AnchorTech Innovations
+              </h3>
+              <p className="text-sm text-white/90 mb-4">
+                Affordable web development and tech support for small
+                businesses and organizations in the Charlotte area.
+              </p>
+              <p className="text-sm text-white/90 mb-4">
+                My own web development business. Designed and built the
+                marketing site with Next.js and TypeScript, with Stripe
+                checkout for paid plans and a Supabase-backed admin
+                dashboard, deployed on Netlify.
+              </p>
+
+              <div className="flex gap-4 text-sm">
+                <a
+                  href="https://anchortech.org/"
+                  target="_blank"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+
             {/* Speech Innovation */}
             <div className="bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
               <h3 className="text-lg font-medium mb-2">Speech Innovation NC</h3>

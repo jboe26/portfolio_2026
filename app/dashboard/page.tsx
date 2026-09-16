@@ -148,8 +148,8 @@ export default function Dashboard() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-4">
             {/* ZeroOut */}
-            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
-              <div className="relative z-10">
+            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40 flex flex-col h-full">
+              <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   <a
                     href="https://zeroout.netlify.app/"
@@ -159,7 +159,7 @@ export default function Dashboard() {
                     ZeroOut - Full Stack Budget & Debt Tracker
                   </a>
                 </h3>
-                <p className="text-sm text-white/90 mb-8">
+                <p className="text-sm text-white/90 mb-6 flex-1">
                   A full stack personal finance app built with Next.js, MongoDB,
                   and NextAuth. Features user authentication, income and expense
                   tracking, debt management, and a live financial dashboard.
@@ -170,7 +170,7 @@ export default function Dashboard() {
                 <a
                   href="https://zeroout.netlify.app/"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -178,8 +178,8 @@ export default function Dashboard() {
             </div>
 
             {/* Charlotte Food Tour */}
-            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
-              <div className="relative z-10">
+            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40 flex flex-col h-full">
+              <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   <a
                     href="https://github.com/jboe26/charlotte-food-tour/tree/main"
@@ -190,7 +190,7 @@ export default function Dashboard() {
                   </a>
                 </h3>
 
-                <p className="text-sm text-white/90 mb-4">
+                <p className="text-sm text-white/90 mb-6 flex-1">
                   An interactive Python text adventure exploring
                   Charlotte&rsquo;s
                   neighborhoods and restaurants through branching choices and
@@ -200,7 +200,7 @@ export default function Dashboard() {
                 <a
                   href="https://github.com/jboe26/charlotte-food-tour/blob/main/CharlotteAdventureGame.py"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
                 >
                   View Source Code
                 </a>
@@ -212,8 +212,8 @@ export default function Dashboard() {
             </div>
 
             {/* Coping Skills Toolbox - Mental Health App */}
-            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
-              <div className="relative z-10">
+            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40 flex flex-col h-full">
+              <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   <a
                     href="https://github.com/jboe26/CopingSkillsToolbox"
@@ -224,7 +224,7 @@ export default function Dashboard() {
                   </a>
                 </h3>
 
-                <p className="text-sm text-white/90 mb-8">
+                <p className="text-sm text-white/90 mb-6 flex-1">
                   A React Native mobile app for mental wellness. Features a
                   coping skills library, four guided exercises (grounding,
                   breathing, body scan, mindfulness), daily mood check-ins, and
@@ -235,7 +235,7 @@ export default function Dashboard() {
                 <a
                   href="https://github.com/jboe26/CopingSkillsToolbox"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
                 >
                   View on GitHub
                 </a>
@@ -243,8 +243,8 @@ export default function Dashboard() {
             </div>
 
             {/* AnchorTech Client Portal */}
-            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40">
-              <div className="relative z-10">
+            <div className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20 hover:border-white/40 flex flex-col h-full">
+              <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   <a
                     href="https://portal.anchortech.org/client/login"
@@ -255,14 +255,14 @@ export default function Dashboard() {
                   </a>
                 </h3>
 
-                <p className="text-sm text-white/90 mb-8">
+                <p className="text-sm text-white/90 mb-6 flex-1">
                   AnchorTech Portal is a full-stack business management platform designed for freelancers and agencies to streamline client, project, and invoice management. Built with Next.js and TypeScript, it features dual-role authentication for admin and clients, an admin dashboard for managing clients and projects, a client portal for viewing active work and invoices, real-time revenue tracking, invoice status management, and a clean Tailwind CSS interface. The backend uses Supabase PostgreSQL with Prisma ORM, and the platform is deployed on Netlify as a complete operational hub for freelance workflows.
                 </p>
 
                 <a
                   href="https://portal.anchortech.org/client/login"
                   target="_blank"
-                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition"
+                  className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0] hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
                 >
                   View Project
                 </a>

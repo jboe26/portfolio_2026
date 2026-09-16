@@ -27,13 +27,13 @@ export default function ProjectsPage() {
             <div
               className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40"
+      hover:border-white/40 flex flex-col h-full"
             >
-              <div className="relative z-10">
+              <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   Pacific Trails Resort
                 </h3>
-                <p className="text-sm text-white/90 mb-8">
+                <p className="text-sm text-white/90 mb-6 flex-1">
                   A structured HTML/CSS project demonstrating layout, responsive
                   design, and semantic markup.
                 </p>
@@ -41,7 +41,7 @@ export default function ProjectsPage() {
                   href="https://inf250-pacifictrailsresort.netlify.app/"
                   target="_blank"
                   className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition"
+          hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -52,13 +52,13 @@ export default function ProjectsPage() {
             <div
               className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40"
+      hover:border-white/40 flex flex-col h-full"
             >
-              <div className="relative z-10">
+              <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   Usability Testing Website
                 </h3>
-                <p className="text-sm text-white/90 mb-8">
+                <p className="text-sm text-white/90 mb-6 flex-1">
                   A full usability analysis of HomeDepot.com including heuristic
                   evaluation, personas, test plan, findings, and
                   recommendations.
@@ -67,7 +67,7 @@ export default function ProjectsPage() {
                   href="https://usabilitywebsite.netlify.app/"
                   target="_blank"
                   className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition"
+          hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -78,13 +78,13 @@ export default function ProjectsPage() {
             <div
               className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
   transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-  hover:border-white/40"
+  hover:border-white/40 flex flex-col h-full"
             >
-              <div className="relative z-10">
+              <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">
                   Charlotte Food Tour Game (Python)
                 </h3>
-                <p className="text-sm text-white/90 mb-4">
+                <p className="text-sm text-white/90 mb-6 flex-1">
                   An interactive Python text adventure exploring Charlotte’s
                   neighborhoods and restaurants through branching choices and
                   dynamic storytelling.
@@ -93,7 +93,7 @@ export default function ProjectsPage() {
                   href="https://github.com/jboe26/charlotte-food-tour/blob/main/CharlotteAdventureGame.py"
                   target="_blank"
                   className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-      hover:bg-[#3ba7a0] hover:text-black transition"
+      hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
                 >
                   View Source Code
                 </a>
@@ -107,11 +107,11 @@ export default function ProjectsPage() {
             <div
               className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40"
+      hover:border-white/40 flex flex-col h-full"
             >
-              <div className="relative z-10">
+              <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">Psychic Game</h3>
-                <p className="text-sm text-white/90 mb-4">
+                <p className="text-sm text-white/90 mb-6 flex-1">
                   A simple JavaScript guessing game where the computer picks a
                   random letter and the user tries to guess it.
                 </p>
@@ -119,7 +119,7 @@ export default function ProjectsPage() {
                   href="https://psychicguessinggame.netlify.app/"
                   target="_blank"
                   className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition"
+          hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -130,11 +130,11 @@ export default function ProjectsPage() {
             <div
               className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40"
+      hover:border-white/40 flex flex-col h-full"
             >
-              <div className="relative z-10">
+              <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">Train Scheduler</h3>
-                <p className="text-sm text-white/90 mb-4">
+                <p className="text-sm text-white/90 mb-6 flex-1">
                   A real-time train schedule app using LocalStorage to store and
                   update arrival times dynamically.
                 </p>
@@ -142,7 +142,7 @@ export default function ProjectsPage() {
                   href="https://trainscheduler.netlify.app/"
                   target="_blank"
                   className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition"
+          hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -153,11 +153,11 @@ export default function ProjectsPage() {
             <div
               className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40"
+      hover:border-white/40 flex flex-col h-full"
             >
-              <div className="relative z-10">
+              <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">Crystal Game</h3>
-                <p className="text-sm text-white/90 mb-4">
+                <p className="text-sm text-white/90 mb-6 flex-1">
                   A number-matching game where each crystal has a hidden value
                   and players try to hit the target score.
                 </p>
@@ -165,7 +165,7 @@ export default function ProjectsPage() {
                   href="https://crystalcollectorgame.netlify.app/"
                   target="_blank"
                   className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition"
+          hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -176,11 +176,11 @@ export default function ProjectsPage() {
             <div
               className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40"
+      hover:border-white/40 flex flex-col h-full"
             >
-              <div className="relative z-10">
+              <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">Trivia Game</h3>
-                <p className="text-sm text-white/90 mb-4">
+                <p className="text-sm text-white/90 mb-6 flex-1">
                   A timed trivia quiz built with JavaScript, tracking correct,
                   incorrect, and unanswered questions.
                 </p>
@@ -188,7 +188,7 @@ export default function ProjectsPage() {
                   href="https://triviagame0.netlify.app/"
                   target="_blank"
                   className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition"
+          hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
                 >
                   View Project
                 </a>
@@ -199,11 +199,11 @@ export default function ProjectsPage() {
             <div
               className="relative group overflow-hidden bg-[#3e424b] p-6 rounded-lg border border-white/20
       transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20
-      hover:border-white/40"
+      hover:border-white/40 flex flex-col h-full"
             >
-              <div className="relative z-10">
+              <div className="relative z-10 flex flex-col flex-1">
                 <h3 className="text-lg font-medium mb-2">Giphy Search App</h3>
-                <p className="text-sm text-white/90 mb-4">
+                <p className="text-sm text-white/90 mb-6 flex-1">
                   A dynamic GIF search tool using the Giphy API to fetch and
                   display animated GIFs based on user input.
                 </p>
@@ -211,7 +211,7 @@ export default function ProjectsPage() {
                   href="https://giphygame.netlify.app/"
                   target="_blank"
                   className="text-lg px-3 py-1 rounded border border-[#3ba7a0] text-[#3ba7a0]
-          hover:bg-[#3ba7a0] hover:text-black transition"
+          hover:bg-[#3ba7a0] hover:text-black transition self-start mt-auto"
                 >
                   View Project
                 </a>

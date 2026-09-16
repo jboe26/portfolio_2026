@@ -29,11 +29,11 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="min-h-screen bg-[#F1F3EF] text-[#14171A]">
+    <main className="min-h-screen bg-[#E7E9E1] text-[#14171A]">
       {/* Page Container */}
       <div className="max-w-4xl px-6 py-10 mx-auto">
         {/* Page Header */}
-        <h2 className="text-xl font-bold mb-4 text-[#1F4A3C]">Contact</h2>
+        <h2 className="text-xl font-bold mb-4 text-[#33473E]">Contact</h2>
         <p className="text-lg text-black/70 mb-8">
           Feel free to reach out for collaborations, opportunities, or
           questions.
@@ -66,7 +66,7 @@ export default function ContactPage() {
         </div>
 
         <div>
-          <h2 className="mb-4 mt-6 text-xl font-bold mb-4 text-[#1F4A3C]">
+          <h2 className="mb-4 mt-6 text-xl font-bold mb-4 text-[#33473E]">
             Send a Message
           </h2>
           <form onSubmit={handleSubmit} className="space-y-4">

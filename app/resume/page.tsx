@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function ResumePage() {
   return (
-    <div className="min-h-screen bg-[#F1F3EF] text-[#14171A]">
+    <div className="min-h-screen bg-[#E7E9E1] text-[#14171A]">
       {/* Main Content */}
       <main className="max-w-4xl mx-auto p-10 space-y-20">
         <div className="flex justify-end">
@@ -25,7 +25,7 @@ export default function ResumePage() {
 
         {/* Objective */}
         <section>
-          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
+          <h2 className="text-xl text-[#33473E] font-semibold mb-3">
             Objective
           </h2>
 
@@ -43,7 +43,7 @@ export default function ResumePage() {
 
         {/* Technical Skills */}
         <section>
-          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
+          <h2 className="text-xl text-[#33473E] font-semibold mb-3">
             Technical Skills
           </h2>
 
@@ -75,7 +75,7 @@ export default function ResumePage() {
 
         {/* Experience */}
         <section>
-          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
+          <h2 className="text-xl text-[#33473E] font-semibold mb-3">
             Experience
           </h2>
 
@@ -143,7 +143,7 @@ export default function ResumePage() {
 
         {/* Projects */}
         <section>
-          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
+          <h2 className="text-xl text-[#33473E] font-semibold mb-3">
             Projects
           </h2>
 
@@ -211,7 +211,7 @@ export default function ResumePage() {
 
         {/* Education */}
         <section>
-          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
+          <h2 className="text-xl text-[#33473E] font-semibold mb-3">
             Education
           </h2>
 

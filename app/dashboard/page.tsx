@@ -10,11 +10,11 @@ export const metadata: Metadata = {
 
 export default function Dashboard() {
   return (
-    <div className="min-h-screen bg-[#F1F3EF] text-[#14171A]">
+    <div className="min-h-screen bg-[#E7E9E1] text-[#14171A]">
       <main className="max-w-4xl mx-auto p-10 space-y-20">
         {/* ABOUT ME */}
         <section className="max-w-4xl mx-auto py-2 px-4">
-          <h1 className="text-xl text-[#1F4A3C] font-bold mb-10">About Me</h1>
+          <h1 className="text-xl text-[#33473E] font-bold mb-10">About Me</h1>
 
           <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
             <div className="flex-shrink-0">
@@ -43,7 +43,7 @@ export default function Dashboard() {
 
         {/* CLIENT WORK */}
         <section>
-          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
+          <h2 className="text-xl text-[#33473E] font-semibold mb-3">
             Client Work
           </h2>
 
@@ -139,7 +139,7 @@ export default function Dashboard() {
 
         {/* FEATURED PROJECTS */}
         <section>
-          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
+          <h2 className="text-xl text-[#33473E] font-semibold mb-3">
             Featured Projects
           </h2>
           <p className="text-[#57605A] text-sm mb-6">
@@ -154,7 +154,7 @@ export default function Dashboard() {
                   <a
                     href="https://zeroout.netlify.app/"
                     target="_blank"
-                    className="hover:underline hover:text-[#1F4A3C] transition-colors duration-200"
+                    className="hover:underline hover:text-[#33473E] transition-colors duration-200"
                   >
                     ZeroOut - Full Stack Budget & Debt Tracker
                   </a>
@@ -184,7 +184,7 @@ export default function Dashboard() {
                   <a
                     href="https://github.com/jboe26/charlotte-food-tour/tree/main"
                     target="_blank"
-                    className="hover:underline hover:text-[#1F4A3C] transition-colors duration-200"
+                    className="hover:underline hover:text-[#33473E] transition-colors duration-200"
                   >
                     Charlotte Food Tour Game (Python)
                   </a>
@@ -218,7 +218,7 @@ export default function Dashboard() {
                   <a
                     href="https://anchortech.org/"
                     target="_blank"
-                    className="hover:underline hover:text-[#1F4A3C] transition-colors duration-200"
+                    className="hover:underline hover:text-[#33473E] transition-colors duration-200"
                   >
                     AnchorTech Innovations
                   </a>
@@ -249,7 +249,7 @@ export default function Dashboard() {
                   <a
                     href="https://branches-app.netlify.app/groups"
                     target="_blank"
-                    className="hover:underline hover:text-[#1F4A3C] transition-colors duration-200"
+                    className="hover:underline hover:text-[#33473E] transition-colors duration-200"
                   >
                     BranchesApp
                   </a>
@@ -273,7 +273,7 @@ export default function Dashboard() {
 
         {/* SKILLS */}
         <section>
-          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-4">Skills</h2>
+          <h2 className="text-xl text-[#33473E] font-semibold mb-4">Skills</h2>
 
           <div className="grid gap-4">
             {/* Core Web */}

@@ -9,12 +9,12 @@ export const metadata: Metadata = {
 
 export default function ProjectsPage() {
   return (
-    <div className="min-h-screen bg-[#F1F3EF] text-[#14171A]">
+    <div className="min-h-screen bg-[#E7E9E1] text-[#14171A]">
       {/* Main Content Container */}
       <main className="max-w-4xl mx-auto p-10 space-y-20">
         {/* SCHOOL PROJECTS */}
         <section>
-          <h2 className="text-xl text-[#1F4A3C] font-semibold mb-3">
+          <h2 className="text-xl text-[#33473E] font-semibold mb-3">
             School Projects
           </h2>
           <p className="text-[#57605A] text-sm mb-6">
